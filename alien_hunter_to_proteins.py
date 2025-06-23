@@ -1,5 +1,6 @@
 # This script utilized ChatGPT for troubleshooting
 # Laila E. Phillips 6/23/25
+
 from Bio import SeqIO
 from Bio.SeqFeature import CompoundLocation
 import re
