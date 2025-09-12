@@ -1,0 +1,6581 @@
+Script started on Fri Sep 12 15:42:32 2025
+[1m[7m%[27m[1m[0m                                                                                ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7msource ~/miniconda3_rosetta/bin/activate[27m
+[K[A[12C[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27mb[27mi[27mn[27m/[27ma[27mc[27mt[27mi[27mv[27ma[27mt[27me[1B[K[A[52C[?1l>[?2004l[1B]2;source ~/miniconda3_rosetta/bin/activate]1;source[1m[7m%[27m[1m[0m                                                                                ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mconda init[27m[10D[27mc[27mo[27mn[27md[27ma[27m [27mi[27mn[27mi[27mt[?1l>[?2004l
+]2;conda init]1;condano change     /Users/Snacks/miniconda3_rosetta/condabin/conda
+no change     /Users/Snacks/miniconda3_rosetta/bin/conda
+no change     /Users/Snacks/miniconda3_rosetta/bin/conda-env
+no change     /Users/Snacks/miniconda3_rosetta/bin/activate
+no change     /Users/Snacks/miniconda3_rosetta/bin/deactivate
+no change     /Users/Snacks/miniconda3_rosetta/etc/profile.d/conda.sh
+no change     /Users/Snacks/miniconda3_rosetta/etc/fish/conf.d/conda.fish
+no change     /Users/Snacks/miniconda3_rosetta/shell/condabin/Conda.psm1
+modified      /Users/Snacks/miniconda3_rosetta/shell/condabin/conda-hook.ps1
+no change     /Users/Snacks/miniconda3_rosetta/lib/python3.13/site-packages/xontrib/conda.xsh
+no change     /Users/Snacks/miniconda3_rosetta/etc/profile.d/conda.csh
+modified      /Users/Snacks/.bash_profile
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7m(base) ➜  ~ conda init[27m
+[7mno change     /Users/Snacks/miniconda3_rosetta/condabin/conda[27m[K
+[7mno change     /Users/Snacks/miniconda3_rosetta/bin/conda[27m[K
+[7mno change     /Users/Snacks/miniconda3_rosetta/bin/conda-env[27m[K
+[7mno change     /Users/Snacks/miniconda3_rosetta/bin/activate[27m[K
+[7mno change     /Users/Snacks/miniconda3_rosetta/bin/deactivate[27m[K
+[7mno change     /Users/Snacks/miniconda3_rosetta/etc/profile.d/conda.sh[27m[K
+[7mno change     /Users/Snacks/miniconda3_rosetta/etc/fish/conf.d/conda.fish[27m[K
+[7mno change     /Users/Snacks/miniconda3_rosetta/shell/condabin/Conda.psm1[27m[K
+[7mmodified      /Users/Snacks/miniconda3_rosetta/shell/condabin/conda-hook.ps1[27m[K
+[7mno change     /Users/Snacks/miniconda3_rosetta/lib/python3.13/site-packages/xont[7mr[7mib/conda.xsh[27m[K
+[7mno change     /Users/Snacks/miniconda3_rosetta/etc/profile.d/conda.csh[27m[K
+[7mmodified      /Users/Snacks/.bash_profile[27m[K
+[K
+[7m==> For changes to take effect, close and re-open your current shell. <==[27m[K[15A[61D[27m([27mb[27ma[27ms[27me[27m)[27m [27m➜[27m [27m [27m~[27m [27mc[27mo[27mn[27md[27ma[27m [27mi[27mn[27mi[27mt[1B[27mn[27mo[27m [27mc[27mh[27ma[27mn[27mg[27me[27m [27m [27m [27m [27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mS[27mn[27ma[27mc[27mk[27ms[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27mc[27mo[27mn[27md[27ma[27mb[27mi[27mn[27m/[27mc[27mo[27mn[27md[27ma[1B[27mn[27mo[27m [27mc[27mh[27ma[27mn[27mg[27me[27m [27m [27m [27m [27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mS[27mn[27ma[27mc[27mk[27ms[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27mb[27mi[27mn[27m/[27mc[27mo[27mn[27md[27ma[1B[27mn[27mo[27m [27mc[27mh[27ma[27mn[27mg[27me[27m [27m [27m [27m [27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mS[27mn[27ma[27mc[27mk[27ms[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27mb[27mi[27mn[27m/[27mc[27mo[27mn[27md[27ma[27m-[27me[27mn[27mv[1B[27mn[27mo[27m [27mc[27mh[27ma[27mn[27mg[27me[27m [27m [27m [27m [27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mS[27mn[27ma[27mc[27mk[27ms[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27mb[27mi[27mn[27m/[27ma[27mc[27mt[27mi[27mv[27ma[27mt[27me[1B[27mn[27mo[27m [27mc[27mh[27ma[27mn[27mg[27me[27m [27m [27m [27m [27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mS[27mn[27ma[27mc[27mk[27ms[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27mb[27mi[27mn[27m/[27md[27me[27ma[27mc[27mt[27mi[27mv[27ma[27mt[27me[1B[27mn[27mo[27m [27mc[27mh[27ma[27mn[27mg[27me[27m [27m [27m [27m [27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mS[27mn[27ma[27mc[27mk[27ms[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27me[27mt[27mc[27m/[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m.[27md[27m/[27mc[27mo[27mn[27md[27ma[27m.[27ms[27mh[1B[27mn[27mo[27m [27mc[27mh[27ma[27mn[27mg[27me[27m [27m [27m [27m [27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mS[27mn[27ma[27mc[27mk[27ms[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27me[27mt[27mc[27m/[27mf[27mi[27ms[27mh[27m/[27mc[27mo[27mn[27mf[27m.[27md[27m/[27mc[27mo[27mn[27md[27ma[27m.[27mf[27mi[27ms[27mh[1B[27mn[27mo[27m [27mc[27mh[27ma[27mn[27mg[27me[27m [27m [27m [27m [27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mS[27mn[27ma[27mc[27mk[27ms[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27ms[27mh[27me[27ml[27ml[27m/[27mc[27mo[27mn[27md[27ma[27mb[27mi[27mn[27m/[27mC[27mo[27mn[27md[27ma[27m.[27mp[27ms[27mm[27m1[1B[27mm[27mo[27md[27mi[27mf[27mi[27me[27md[27m [27m [27m [27m [27m [27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mS[27mn[27ma[27mc[27mk[27ms[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27ms[27mh[27me[27ml[27ml[27m/[27mc[27mo[27mn[27md[27ma[27mb[27mi[27mn[27m/[27mc[27mo[27mn[27md[27ma[27m-[27mh[27mo[27mo[27mk[27m.[27mp[27ms[27m1[1B[27mn[27mo[27m [27mc[27mh[27ma[27mn[27mg[27me[27m [27m [27m [27m [27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mS[27mn[27ma[27mc[27mk[27ms[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27ml[27mi[27mb[27m/[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m.[27m1[27m3[27m/[27ms[27mi[27mt[27me[27m-[27mp[27ma[27mc[27mk[27ma[27mg[27me[27ms[27m/[27mx[27mo[27mn[27mtr[27mi[27mb[27m/[27mc[27mo[27mn[27md[27ma[27m.[27mx[27ms[27mh[1B[27mn[27mo[27m [27mc[27mh[27ma[27mn[27mg[27me[27m [27m [27m [27m [27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mS[27mn[27ma[27mc[27mk[27ms[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27me[27mt[27mc[27m/[27mp[27mr[27mo[27mf[27mi[27ml[27me[27m.[27md[27m/[27mc[27mo[27mn[27md[27ma[27m.[27mc[27ms[27mh[1B[27mm[27mo[27md[27mi[27mf[27mi[27me[27md[27m [27m [27m [27m [27m [27m [27m/[27mU[27ms[27me[27mr[27ms[27m/[27mS[27mn[27ma[27mc[27mk[27ms[27m/[27m.[27mb[27ma[27ms[27mh[27m_[27mp[27mr[27mo[27mf[27mi[27ml[27me[2B[K[K[A[?2004l[1B[1m[7m%[27m[1m[0m                                                                                ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;31m➜  [36m~[00m [K[?1h=[?2004h[7mcat ~/.bash_profile[27m[19D[27mc[27ma[27mt[27m [27m~[27m/[27m.[27mb[27ma[27ms[27mh[27m_[27mp[27mr[27mo[27mf[27mi[27ml[27me[?1l>[?2004l
+]2;cat ~/.bash_profile]1;cat
+# Setting PATH for Python 3.8
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
+
+source "`brew --prefix`/etc/grc.bashrc"
+source "`brew --prefix`/etc/grc.bashrc"
+
+# Setting PATH for Python 3.12
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"
+export PATH
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/Snacks/miniconda3_rosetta/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/Snacks/miniconda3_rosetta/etc/profile.d/conda.sh" ]; then
+        . "/Users/Snacks/miniconda3_rosetta/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/Snacks/miniconda3_rosetta/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004hnnano ~/.bash_profile[?1l>[?2004l
+]2;nano ~/.bash_profile]1;nano[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;33H[7m[ Reading file ][27m[22;1H                                                                                [22;32H[7m[ Read 28 lines ][27m[1;1H[J[7m  UW PICO 5.09               File: /Users/Snacks/.bash_profile                  [27m[4;1H# Setting PATH for Python 3.8[5;1H# The original version is saved in .bash_profile.pysave[6;1HPATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"[8;1Hsource "`brew --prefix`/etc/grc.bashrc"[9;1Hsource "`brew --prefix`/etc/grc.bashrc"[11;1H# Setting PATH for Python 3.12[12;1H# The original version is saved in .bash_profile.pysave[13;1HPATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"[14;1Hexport PATH[16;1H# >>> conda initialize >>>[17;1H# !! Contents within this block are managed by 'conda init' !![18;1H__conda_setup="$('/Users/Snacks/miniconda3_rosetta/bin/conda' 'shell.bash' 'hoo$[19;1Hif [ $? -eq 0 ]; then[20;5Heval "$__conda_setup"[21;1Helse[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[4;1H[5;1H[6;1H[7;1H[8;1H[9;1H[10;1H[11;1H[12;1H[13;1H[14;1H[15;1H[16;1H[17;1H[18;1H[19;1H[20;1H[21;1H[3;1HPATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"[4;1Hexport PATH[K[5;1H[K[6;1H# >>> conda initialize >>>[K[7;1H# !! Contents within this block are managed by 'conda init' !![8;1H__conda_setup="$('/Users/Snacks/miniconda3_rosetta/bin/conda' 'shell.bash' 'hoo$[9;1Hif [ $? -eq 0 ]; then[K[10;5Heval "$__conda_setup"[11;1Helse[K[12;1H    if [ -f "/Users/Snacks/miniconda3_rosetta/etc/profile.d/conda.sh" ]; then[13;1H        . "/Users/Snacks/miniconda3_rosetta/etc/profile.d/conda.sh"  [14;1H    else   [15;9Hexport PATH="/Users/Snacks/miniconda3_rosetta/bin:$PATH"[16;1H    fi[K[17;1Hfi[K[18;1Hunset __conda_setup[K[19;1H# <<< conda initialize <<<[20;5H[K[21;1H[K[12;1H[13;1H[14;1H[15;1H[16;1H[17;1H[18;1H[19;1H[20;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[3;1H[K[4;1H# Setting PATH for Python 3.8[5;1H# The original version is saved in .bash_profile.pysave[6;1HPATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"[7;1H[K[8;1Hsource "`brew --prefix`/etc/grc.bashrc"[K[9;1Hsource "`brew --prefix`/etc/grc.bashrc"[10;5H[K[11;1H# Setting PATH for Python 3.12[12;1H# The original version is saved in .bash_profile.pysave[K[13;1HPATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"[14;1Hexport PATH[15;9H[K[16;1H# >>> conda initialize >>>[17;1H# !! Contents within this block are managed by 'conda init' !![18;1H__conda_setup="$('/Users/Snacks/miniconda3_rosetta/bin/conda' 'shell.bash' 'hoo$[19;1Hif [ $? -eq 0 ]; then[K[20;5Heval "$__conda_setup"[21;1Helse[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[3;1H[23;1H[K[24;1H[K[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004hnano ~/.bash_profile[20Dcat[P[16C [19Dconda init         [9D[10Dsource ~/miniconda3_rosetta/bin/activate[40Dconda init                              [30D[10Dcat ~/.bash_profile[19Dnano ~/.bash_profile                 n  [7mconda activate base[27m[19D[27mc[27mo[27mn[27md[27ma[27m [27ma[27mc[27mt[27mi[27mv[27ma[27mt[27me[27m [27mb[27ma[27ms[27me[?1l>[?2004l
+]2;conda activate base]1;conda[1m[7m%[27m[1m[0m                                                                                ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mconda create -y --name anvio-8 python=3.10[27m
+[K[A[12C[27mc[27mo[27mn[27md[27ma[27m [27mc[27mr[27me[27ma[27mt[27me[27m [27m-[27my[27m [27m-[27m-[27mn[27ma[27mm[27me[27m [27ma[27mn[27mv[27mi[27mo[27m-[27m8[27m [27mp[27my[27mt[27mh[27mo[27mn[27m=[27m3[27m.[27m1[27m0[1B[K[A[54C[1C. python=3.10[12Do python=3.10[12D[1C[1C[P[12C [13D0 python=3.10[12D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?1l>[?2004l[1B
+]2;conda create -y --name anvio-8.0 python=3.10]1;conda[1;32m2[0m[1;32m channel Terms of Service accepted[0m
+Channels:
+ - defaults
+Platform: osx-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / done
+Solving environment: \ done
+
+## Package Plan ##
+
+  environment location: /Users/Snacks/miniconda3_rosetta/envs/anvio-8.0
+
+  added / updated specs:
+    - python=3.10
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pip-25.2                   |     pyhc872135_0         1.2 MB
+    python-3.10.18             |       hc958d9f_0        13.1 MB
+    setuptools-78.1.1          |  py310hecd8cb5_0         1.6 MB
+    wheel-0.45.1               |  py310hecd8cb5_0         119 KB
+    ------------------------------------------------------------
+                                           Total:        16.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              pkgs/main/osx-64::bzip2-1.0.8-h6c40b1e_6 
+  ca-certificates    pkgs/main/osx-64::ca-certificates-2025.7.15-hecd8cb5_0 
+  expat              pkgs/main/osx-64::expat-2.7.1-h6d0c2b6_0 
+  libcxx             pkgs/main/osx-64::libcxx-19.1.7-haebbb44_3 
+  libffi             pkgs/main/osx-64::libffi-3.4.4-hecd8cb5_1 
+  ncurses            pkgs/main/osx-64::ncurses-6.5-h923df54_0 
+  openssl            pkgs/main/osx-64::openssl-3.0.17-hee2dfae_0 
+  pip                pkgs/main/noarch::pip-25.2-pyhc872135_0 
+  python             pkgs/main/osx-64::python-3.10.18-hc958d9f_0 
+  readline           pkgs/main/osx-64::readline-8.3-h49f2429_0 
+  setuptools         pkgs/main/osx-64::setuptools-78.1.1-py310hecd8cb5_0 
+  sqlite             pkgs/main/osx-64::sqlite-3.50.2-hc8b0dd6_1 
+  tk                 pkgs/main/osx-64::tk-8.6.15-h3a5a201_0 
+  tzdata             pkgs/main/noarch::tzdata-2025b-h04d1e81_0 
+  wheel              pkgs/main/osx-64::wheel-0.45.1-py310hecd8cb5_0 
+  xz                 pkgs/main/osx-64::xz-5.6.4-h46256e1_1 
+  zlib               pkgs/main/osx-64::zlib-1.2.13-h4b97444_1 
+
+
+
+Downloading and Extracting Packages:
+python-3.10.18       | 13.1 MB   |                                       |   0% 
+setuptools-78.1.1    | 1.6 MB    |                                       |   0% [A
+
+pip-25.2             | 1.2 MB    |                                       |   0% [A[A
+
+
+wheel-0.45.1         | 119 KB    |                                       |   0% [A[A[A
+
+
+wheel-0.45.1         | 119 KB    | ####9                                 |  13% [A[A[A
+setuptools-78.1.1    | 1.6 MB    | 3                                     |   1% [A
+
+pip-25.2             | 1.2 MB    | 4                                     |   1% [A[A
+
+
+wheel-0.45.1         | 119 KB    | ##################################### | 100% [A[A[A
+
+
+wheel-0.45.1         | 119 KB    | ##################################### | 100% [A[A[Apython-3.10.18       | 13.1 MB   |                                       |   0% 
+
+pip-25.2             | 1.2 MB    | ##################################### | 100% [A[A
+setuptools-78.1.1    | 1.6 MB    | ##################################### | 100% [Apython-3.10.18       | 13.1 MB   | ########4                             |  23% 
+
+pip-25.2             | 1.2 MB    | ##################################### | 100% [A[A
+
+pip-25.2             | 1.2 MB    | ##################################### | 100% [A[Apython-3.10.18       | 13.1 MB   | ###############4                      |  42% 
+setuptools-78.1.1    | 1.6 MB    | ##################################### | 100% [A
+setuptools-78.1.1    | 1.6 MB    | ##################################### | 100% [Apython-3.10.18       | 13.1 MB   | ###################5                  |  53% python-3.10.18       | 13.1 MB   | ##########################9           |  73% python-3.10.18       | 13.1 MB   | ###################################2  |  95% python-3.10.18       | 13.1 MB   | ##################################### | 100% python-3.10.18       | 13.1 MB   | ##################################### | 100%                                                                                 
+                                                                                [A
+
+                                                                                [A[A
+
+
+                                                                                [A[A[A
+Preparing transaction: / - done
+Verifying transaction: | / - \ | / - \ done
+Executing transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+#
+# To activate this environment, use
+#
+#     $ conda activate anvio-8.0
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004hcconda activate anvio-8.0[?1l>[?2004l
+]2;conda activate anvio-8.0]1;conda[1m[7m%[27m[1m[0m                                                                                ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mconda config --env --set subdir osx-64[27m[38D[27mc[27mo[27mn[27md[27ma[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27m-[27m-[27me[27mn[27mv[27m [27m-[27m-[27ms[27me[27mt[27m [27ms[27mu[27mb[27md[27mi[27mr[27m [27mo[27ms[27mx[27m-[27m6[27m4[?1l>[?2004l
+]2;conda config --env --set subdir osx-64]1;conda[1m[7m%[27m[1m[0m                                                                                ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mconda install -y -c conda-forge -c bioconda python=3.10 \[27m
+[7m        sqlite=3.46 prodigal idba mcl muscle=3.8.1551 famsa hmmer diamond \[27m[K
+[7m        blast megahit spades bowtie2 bwa graphviz "samtools>=1.9" \[27m[K
+[7m        trimal iqtree trnascan-se fasttree vmatch r-base r-tidyverse \[27m[K
+[7m        r-optparse r-stringi r-magrittr bioconductor-qvalue meme ghostscript \[27m[K
+[7m        nodejs=20.12.2[27m[K
+[K[6A[17C[27mc[27mo[27mn[27md[27ma[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27my[27m [27m-[27mc[27m [27mc[27mo[27mn[27md[27ma[27m-[27mf[27mo[27mr[27mg[27me[27m [27m-[27mc[27m [27mb[27mi[27mo[27mc[27mo[27mn[27md[27ma[27m [27mp[27my[27mt[27mh[27mo[27mn[27m=[27m3[27m.[27m1[27m0[27m [27m\[1B[27m [27m [27m [27m [27m [27m [27m [27m [27ms[27mq[27ml[27mi[27mt[27me[27m=[27m3[27m.[27m4[27m6[27m [27mp[27mr[27mo[27md[27mi[27mg[27ma[27ml[27m [27mi[27md[27mb[27ma[27m [27mm[27mc[27ml[27m [27mm[27mu[27ms[27mc[27ml[27me[27m=[27m3[27m.[27m8[27m.[27m1[27m5[27m5[27m1[27m [27mf[27ma[27mm[27ms[27ma[27m [27mh[27mm[27mm[27me[27mr[27m [27md[27mi[27ma[27mm[27mo[27mn[27md[27m [27m\[1B[27m [27m [27m [27m [27m [27m [27m [27m [27mb[27ml[27ma[27ms[27mt[27m [27mm[27me[27mg[27ma[27mh[27mi[27mt[27m [27ms[27mp[27ma[27md[27me[27ms[27m [27mb[27mo[27mw[27mt[27mi[27me[27m2[27m [27mb[27mw[27ma[27m [27mg[27mr[27ma[27mp[27mh[27mv[27mi[27mz[27m [27m"[27ms[27ma[27mm[27mt[27mo[27mo[27ml[27ms[27m>[27m=[27m1[27m.[27m9[27m"[27m [27m\[1B[27m [27m [27m [27m [27m [27m [27m [27m [27mt[27mr[27mi[27mm[27ma[27ml[27m [27mi[27mq[27mt[27mr[27me[27me[27m [27mt[27mr[27mn[27ma[27ms[27mc[27ma[27mn[27m-[27ms[27me[27m [27mf[27ma[27ms[27mt[27mt[27mr[27me[27me[27m [27mv[27mm[27ma[27mt[27mc[27mh[27m [27mr[27m-[27mb[27ma[27ms[27me[27m [27mr[27m-[27mt[27mi[27md[27my[27mv[27me[27mr[27ms[27me[27m [27m\[1B[27m [27m [27m [27m [27m [27m [27m [27m [27mr[27m-[27mo[27mp[27mt[27mp[27ma[27mr[27ms[27me[27m [27mr[27m-[27ms[27mt[27mr[27mi[27mn[27mg[27mi[27m [27mr[27m-[27mm[27ma[27mg[27mr[27mi[27mt[27mt[27mr[27m [27mb[27mi[27mo[27mc[27mo[27mn[27md[27mu[27mc[27mt[27mo[27mr[27m-[27mq[27mv[27ma[27ml[27mu[27me[27m [27mm[27me[27mm[27me[27m [27mg[27mh[27mo[27ms[27mt[27ms[27mc[27mr[27mi[27mp[27mt[27m [27m\[1B[27m [27m [27m [27m [27m [27m [27m [27m [27mn[27mo[27md[27me[27mj[27ms[27m=[27m2[27m0[27m.[27m1[27m2[27m.[27m2[1B[K[?1l>[?2004l
+]2;conda install -y -c conda-forge -c bioconda python=3.10 sqlite=3.46 prodigal ]1;conda[1;32m2[0m[1;32m channel Terms of Service accepted[0m
+Channels:
+ - conda-forge
+ - bioconda
+ - defaults
+Platform: osx-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | / - \ | / - \ | done
+
+## Package Plan ##
+
+  environment location: /Users/Snacks/miniconda3_rosetta/envs/anvio-8.0
+
+  added / updated specs:
+    - bioconductor-qvalue
+    - blast
+    - bowtie2
+    - bwa
+    - diamond
+    - famsa
+    - fasttree
+    - ghostscript
+    - graphviz
+    - hmmer
+    - idba
+    - iqtree
+    - mcl
+    - megahit
+    - meme
+    - muscle=3.8.1551
+    - nodejs=20.12.2
+    - prodigal
+    - python=3.10
+    - r-base
+    - r-magrittr
+    - r-optparse
+    - r-stringi
+    - r-tidyverse
+    - samtools[version='>=1.9']
+    - spades
+    - sqlite=3.46
+    - trimal
+    - trnascan-se
+    - vmatch
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _r-mutex-1.0.1             |      anacondar_1           3 KB  conda-forge
+    adwaita-icon-theme-48.1    |           unix_1         607 KB  conda-forge
+    atk-1.0-2.38.0             |       h4bec284_2         342 KB  conda-forge
+    bioconductor-qvalue-2.38.0 |    r44hdfd78af_0         2.7 MB  bioconda
+    blast-2.16.0               |       h461d46c_3       159.5 MB  bioconda
+    bowtie2-2.5.4              |       he4764aa_6         1.5 MB  bioconda
+    bwa-0.7.19                 |       h7f84b70_1         231 KB  bioconda
+    bwidget-1.10.1             |       h694c41f_1         127 KB  conda-forge
+    c-ares-1.34.5              |       hf13058a_0         180 KB  conda-forge
+    ca-certificates-2025.8.3   |       hbd8a1cb_0         151 KB  conda-forge
+    cairo-1.18.4               |       h950ec3b_0         872 KB  conda-forge
+    cctools_osx-64-1024.3      |       haa85c18_1         724 KB  conda-forge
+    clang-19.1.7               |default_h1323312_4          24 KB  conda-forge
+    clang-19-19.1.7            |default_hc369343_4         746 KB  conda-forge
+    clang_impl_osx-64-19.1.7   |      hc73cdc9_25          18 KB  conda-forge
+    clang_osx-64-19.1.7        |      h7e5c614_25          21 KB  conda-forge
+    clangxx-19.1.7             |default_h1c12a56_4          24 KB  conda-forge
+    clangxx_impl_osx-64-19.1.7 |      hb295874_25          18 KB  conda-forge
+    clangxx_osx-64-19.1.7      |      h7e5c614_25          19 KB  conda-forge
+    compiler-rt-19.1.7         |       he914875_1          94 KB  conda-forge
+    compiler-rt_osx-64-19.1.7  |       h138dee1_1         9.9 MB  conda-forge
+    curl-8.14.1                |       h5dec5d8_0         167 KB  conda-forge
+    diamond-2.1.12             |       h2ec61ea_0         3.1 MB  bioconda
+    entrez-direct-22.4         |       h193322a_0        13.9 MB  bioconda
+    epoxy-1.5.10               |       h5eb16cf_1         334 KB  conda-forge
+    famsa-2.4.1                |       h527b516_0         1.0 MB  bioconda
+    fasttree-2.2.0             |       h5c2640d_0         188 KB  bioconda
+    font-ttf-dejavu-sans-mono-2.37|       hab24e00_0         388 KB  conda-forge
+    font-ttf-inconsolata-3.000 |       h77eed37_0          94 KB  conda-forge
+    font-ttf-source-code-pro-2.038|       h77eed37_0         684 KB  conda-forge
+    font-ttf-ubuntu-0.83       |       h77eed37_3         1.5 MB  conda-forge
+    fontconfig-2.15.0          |       h37eeddb_1         227 KB  conda-forge
+    fonts-conda-ecosystem-1    |                0           4 KB  conda-forge
+    fonts-conda-forge-1        |                0           4 KB  conda-forge
+    freetype-2.14.0            |       h694c41f_1         170 KB  conda-forge
+    fribidi-1.0.16             |       h8616949_0          59 KB  conda-forge
+    gdk-pixbuf-2.42.12         |       h5720e38_3         544 KB  conda-forge
+    gfortran_impl_osx-64-13.4.0|       h8d0df8b_1        19.8 MB  conda-forge
+    gfortran_osx-64-13.4.0     |       h3223c34_0          35 KB  conda-forge
+    ghostscript-10.04.0        |       hac325c4_0        57.5 MB  conda-forge
+    glib-tools-2.84.3          |       h35d42e9_0         100 KB  conda-forge
+    gmp-6.3.0                  |       hf036a51_2         419 KB  conda-forge
+    graphite2-1.3.14           |       h21dd04a_2          83 KB  conda-forge
+    graphviz-13.1.2            |       h42bfd48_0         2.2 MB  conda-forge
+    gsl-2.7                    |       h93259b0_0         3.1 MB  conda-forge
+    gtk3-3.24.43               |       h70b172e_5         4.7 MB  conda-forge
+    gts-0.7.6                  |       h53e17e3_4         274 KB  conda-forge
+    harfbuzz-11.4.5            |       h0ffbb26_0         1.5 MB  conda-forge
+    hicolor-icon-theme-0.17    |       h694c41f_2          13 KB  conda-forge
+    hmmer-3.4                  |       hc70aa7a_4        16.1 MB  bioconda
+    htslib-1.22.1              |       h9f635df_0         2.9 MB  bioconda
+    icu-75.1                   |       h120a0e1_0        11.2 MB  conda-forge
+    idba-1.1.3                 |                1         3.4 MB  bioconda
+    infernal-1.1.5             | pl5321h5c2640d_4        10.1 MB  bioconda
+    iqtree-3.0.1               |       h6ed3961_0         4.2 MB  bioconda
+    isl-0.26                   |imath32_h2e86a7b_101         873 KB  conda-forge
+    krb5-1.21.3                |       h37d8d59_0         1.1 MB  conda-forge
+    ld64_osx-64-955.13         |       hf1c22e8_1         1.1 MB  conda-forge
+    lerc-4.0.0                 |       hcca01a6_1         243 KB  conda-forge
+    libasprintf-0.25.1         |       h3184127_1          51 KB  conda-forge
+    libblas-3.9.0              |35_he492b99_openblas          17 KB  conda-forge
+    libcblas-3.9.0             |35_h9b27e0a_openblas          17 KB  conda-forge
+    libclang-cpp19.1-19.1.7    |default_hc369343_4        14.2 MB  conda-forge
+    libcurl-8.14.1             |       h5dec5d8_0         414 KB  conda-forge
+    libcxx-devel-19.1.7        |       h7c275be_1         807 KB  conda-forge
+    libdeflate-1.24            |       hcc1b750_0          68 KB  conda-forge
+    libedit-3.1.20250104       | pl5321ha958ccf_0         113 KB  conda-forge
+    libev-4.33                 |       h10d778d_2         104 KB  conda-forge
+    libexpat-2.7.1             |       h21dd04a_0          71 KB  conda-forge
+    libffi-3.4.6               |       h281671d_1          50 KB  conda-forge
+    libfreetype-2.14.0         |       h694c41f_1           8 KB  conda-forge
+    libfreetype6-2.14.0        |       h6912278_1         366 KB  conda-forge
+    libgcc-4.8.5               |                1         785 KB  conda-forge
+    libgd-2.3.3                |      h8555400_11         159 KB  conda-forge
+    libgettextpo-0.25.1        |       h3184127_1         194 KB  conda-forge
+    libgfortran-5.0.0          |14_2_0_h51e75f0_103         153 KB  conda-forge
+    libgfortran-devel_osx-64-13.4.0|       hbfa0f67_1         477 KB  conda-forge
+    libgfortran5-14.2.0        |     h51e75f0_103         1.2 MB  conda-forge
+    libglib-2.84.3             |       h5fed8df_0         3.6 MB  conda-forge
+    libiconv-1.18              |       h57a12c2_2         721 KB  conda-forge
+    libidn2-2.3.8              |       he8ff88c_0         142 KB  conda-forge
+    libintl-0.25.1             |       h3184127_1          95 KB  conda-forge
+    libjpeg-turbo-3.1.0        |       h6e16a3a_0         573 KB  conda-forge
+    liblapack-3.9.0            |35_h859234e_openblas          17 KB  conda-forge
+    libllvm19-19.1.7           |       hc29ff6c_1        27.5 MB  conda-forge
+    liblzma-5.8.1              |       hd471939_2         102 KB  conda-forge
+    liblzma-devel-5.8.1        |       hd471939_2         114 KB  conda-forge
+    libnghttp2-1.67.0          |       h3338091_0         591 KB  conda-forge
+    libopenblas-0.3.30         |openmp_hbf64a52_0         5.9 MB  conda-forge
+    libpng-1.6.50              |       h84aeda2_1         291 KB  conda-forge
+    librsvg-2.58.4             |       h21a6cfa_3         4.7 MB  conda-forge
+    libsqlite-3.46.1           |       h4b8f8c9_0         887 KB  conda-forge
+    libssh2-1.11.1             |       hed3591d_0         278 KB  conda-forge
+    libtiff-4.7.0              |       h59ddb5d_6         392 KB  conda-forge
+    libunistring-0.9.10        |       h0d85af4_0         1.3 MB  conda-forge
+    libuv-1.51.0               |       h58003a5_1         413 KB  conda-forge
+    libwebp-base-1.6.0         |       hb807250_0         357 KB  conda-forge
+    libxml2-2.13.8             |       he1bc88e_1         597 KB  conda-forge
+    libxslt-1.1.43             |       h59ddae0_0         220 KB  conda-forge
+    libzlib-1.3.1              |       hd23fc13_2          56 KB  conda-forge
+    llvm-openmp-19.1.7         |       ha54dae1_1         299 KB  conda-forge
+    llvm-tools-19.1.7          |       h3fe3016_1          85 KB  conda-forge
+    llvm-tools-19-19.1.7       |       he90a8e3_1        16.8 MB  conda-forge
+    make-4.4.1                 |       h00291cd_2         272 KB  conda-forge
+    mcl-22.282                 | pl5321h18d8cf3_4         2.2 MB  bioconda
+    megahit-1.2.9              |       h99a451f_8         1.5 MB  bioconda
+    meme-4.11.2                |py310pl5321hb032f04_9         7.8 MB  bioconda
+    mpc-1.3.1                  |       h9d8efa1_1         105 KB  conda-forge
+    mpfr-4.2.1                 |       haed47dc_3         365 KB  conda-forge
+    mpi-1.0                    |          openmpi           4 KB  conda-forge
+    muscle-3.8.1551            |       h5fa12a8_9         177 KB  bioconda
+    ncbi-vdb-3.2.1             |       h5fa12a8_0         9.6 MB  bioconda
+    nodejs-20.12.2             |       hb4580d4_1        11.6 MB  conda-forge
+    openmpi-4.1.6              |     h7406208_101         2.8 MB  conda-forge
+    openssl-3.5.2              |       h6e31bce_0         2.6 MB  conda-forge
+    pandoc-3.8                 |       h694c41f_0        14.3 MB  conda-forge
+    pango-1.56.4               |       h6ef8af8_0         423 KB  conda-forge
+    pcre2-10.45                |       hf733adb_0         1.0 MB  conda-forge
+    perl-5.32.1                | 7_h10d778d_perl5        11.8 MB  conda-forge
+    perl-archive-tar-3.04      | pl5321hdfd78af_0          34 KB  bioconda
+    perl-b-cow-0.007           | pl5321h6e16a3a_1          20 KB  conda-forge
+    perl-base-2.23             | pl5321hd8ed1ab_0          19 KB  conda-forge
+    perl-business-isbn-3.007   | pl5321hd8ed1ab_0          18 KB  conda-forge
+    perl-business-isbn-data-20210112.006| pl5321hd8ed1ab_0          21 KB  conda-forge
+    perl-carp-1.50             | pl5321hd8ed1ab_0          22 KB  conda-forge
+    perl-cgi-4.70              | pl5321h18d8cf3_0         121 KB  bioconda
+    perl-clone-0.46            | pl5321h6e16a3a_1          21 KB  conda-forge
+    perl-common-sense-3.75     | pl5321hd8ed1ab_0          20 KB  conda-forge
+    perl-compress-raw-bzip2-2.213| pl5321hf24e901_0          57 KB  conda-forge
+    perl-compress-raw-zlib-2.213| pl5321h28c400f_0          75 KB  conda-forge
+    perl-constant-1.33         | pl5321hd8ed1ab_0          15 KB  conda-forge
+    perl-encode-3.21           | pl5321h6e16a3a_1         1.0 MB  conda-forge
+    perl-encode-locale-1.05    | pl5321hdfd78af_7          13 KB  bioconda
+    perl-exporter-5.74         | pl5321hd8ed1ab_0          19 KB  conda-forge
+    perl-exporter-tiny-1.002002| pl5321hd8ed1ab_0          28 KB  conda-forge
+    perl-extutils-makemaker-7.70| pl5321hd8ed1ab_0         154 KB  conda-forge
+    perl-file-path-2.18        | pl5321hd8ed1ab_0          22 KB  conda-forge
+    perl-file-spec-3.48_01     | pl5321hdfd78af_2           6 KB  bioconda
+    perl-file-temp-0.2304      | pl5321hd8ed1ab_0          31 KB  conda-forge
+    perl-html-parser-3.83      | pl5321h5fa12a8_1          68 KB  bioconda
+    perl-html-tagset-3.24      | pl5321hdfd78af_0          15 KB  bioconda
+    perl-html-template-2.97    | pl5321hdfd78af_2          47 KB  bioconda
+    perl-http-date-6.06        | pl5321hdfd78af_0          14 KB  bioconda
+    perl-http-message-7.00     | pl5321hdfd78af_0          57 KB  bioconda
+    perl-io-compress-2.213     | pl5321h5eaf441_0          85 KB  bioconda
+    perl-io-html-1.004         | pl5321hdfd78af_0          16 KB  bioconda
+    perl-io-zlib-1.15          | pl5321hdfd78af_1          12 KB  bioconda
+    perl-json-4.10             | pl5321hdfd78af_1          56 KB  bioconda
+    perl-json-xs-4.04          | pl5321h5fa12a8_0          68 KB  bioconda
+    perl-list-moreutils-0.430  | pl5321hdfd78af_0          32 KB  bioconda
+    perl-list-moreutils-xs-0.430| pl5321h18d8cf3_5          43 KB  bioconda
+    perl-lwp-mediatypes-6.04   | pl5321hdfd78af_1          24 KB  bioconda
+    perl-mime-base64-3.16      | pl5321h6e16a3a_3          21 KB  conda-forge
+    perl-parent-0.243          | pl5321hd8ed1ab_0          14 KB  conda-forge
+    perl-pathtools-3.75        | pl5321h6e16a3a_2          48 KB  conda-forge
+    perl-scalar-list-utils-1.70| pl5321h1c43f85_0          47 KB  conda-forge
+    perl-storable-3.15         | pl5321h6e16a3a_2          64 KB  conda-forge
+    perl-test-fatal-0.016      | pl5321h694c41f_0          19 KB  conda-forge
+    perl-test-needs-0.002009   | pl5321hd8ed1ab_0          17 KB  conda-forge
+    perl-test-nowarnings-1.06  | pl5321h694c41f_0          19 KB  conda-forge
+    perl-test-warnings-0.031   | pl5321h694c41f_0          21 KB  conda-forge
+    perl-time-local-1.35       | pl5321hdfd78af_0          14 KB  bioconda
+    perl-timedate-2.33         | pl5321hdfd78af_2          31 KB  bioconda
+    perl-try-tiny-0.31         | pl5321h694c41f_0          17 KB  conda-forge
+    perl-types-serialiser-1.01 | pl5321hdfd78af_0          13 KB  bioconda
+    perl-uri-5.17              | pl5321h694c41f_0          66 KB  conda-forge
+    perl-url-encode-0.03       | pl5321h527b516_1          13 KB  bioconda
+    perl-xml-namespacesupport-1.12| pl5321hd8ed1ab_0          22 KB  conda-forge
+    perl-xml-parser-2.44_01    |pl5321hb443cb6_1004         144 KB  conda-forge
+    perl-xml-sax-1.02          | pl5321hd8ed1ab_0          43 KB  conda-forge
+    perl-xml-sax-base-1.09     | pl5321hd8ed1ab_0          27 KB  conda-forge
+    perl-xml-sax-expat-0.51    | pl5321hd8ed1ab_0          18 KB  conda-forge
+    perl-xml-simple-2.25       | pl5321hdfd78af_2          49 KB  bioconda
+    perl-yaml-1.30             | pl5321hdfd78af_0          43 KB  bioconda
+    pixman-0.46.4              |       ha059160_1         382 KB  conda-forge
+    prodigal-2.6.3             |      h7f84b70_11         422 KB  bioconda
+    python-3.10.15             |hd8744da_2_cpython        12.3 MB  conda-forge
+    python_abi-3.10            |          8_cp310           7 KB  conda-forge
+    r-askpass-1.2.1            |    r44h199b6f9_0          30 KB  conda-forge
+    r-assertthat-0.2.1         |    r44hc72bb7e_6          71 KB  conda-forge
+    r-backports-1.5.0          |    r44h735ac91_2         127 KB  conda-forge
+    r-base-4.4.3               |       h46d4a84_2        25.5 MB  conda-forge
+    r-base64enc-0.1_3          | r44h735ac91_1008          44 KB  conda-forge
+    r-bit-4.6.0                |    r44h735ac91_1         612 KB  conda-forge
+    r-bit64-4.6.0_1            |    r44h735ac91_1         500 KB  conda-forge
+    r-blob-1.2.4               |    r44hc72bb7e_3          66 KB  conda-forge
+    r-broom-1.0.9              |    r44hc72bb7e_1         1.8 MB  conda-forge
+    r-bslib-0.9.0              |    r44hc72bb7e_1         4.8 MB  conda-forge
+    r-cachem-1.1.0             |    r44h735ac91_2          74 KB  conda-forge
+    r-callr-3.7.6              |    r44hc72bb7e_2         444 KB  conda-forge
+    r-cellranger-1.1.0         | r44hc72bb7e_1008         109 KB  conda-forge
+    r-cli-3.6.5                |    r44ha730edb_1         1.3 MB  conda-forge
+    r-clipr-0.8.0              |    r44hc72bb7e_4          69 KB  conda-forge
+    r-colorspace-2.1_1         |    r44h735ac91_1         2.4 MB  conda-forge
+    r-conflicted-1.2.0         |    r44h785f33e_3          62 KB  conda-forge
+    r-cpp11-0.5.2              |    r44h785f33e_2         231 KB  conda-forge
+    r-crayon-1.5.3             |    r44hc72bb7e_2         164 KB  conda-forge
+    r-curl-7.0.0               |    r44h23bc03f_1         466 KB  conda-forge
+    r-data.table-1.17.8        |    r44h4055d09_1         2.2 MB  conda-forge
+    r-dbi-1.2.3                |    r44hc72bb7e_2         853 KB  conda-forge
+    r-dbplyr-2.5.1             |    r44hc72bb7e_1         1.2 MB  conda-forge
+    r-digest-0.6.37            |    r44ha730edb_1         206 KB  conda-forge
+    r-dplyr-1.1.4              |    r44ha730edb_2         1.4 MB  conda-forge
+    r-dtplyr-1.3.2             |    r44hc72bb7e_1         403 KB  conda-forge
+    r-ellipsis-0.3.2           |    r44h735ac91_4          42 KB  conda-forge
+    r-evaluate-1.0.5           |    r44hc72bb7e_1         109 KB  conda-forge
+    r-fansi-1.0.6              |    r44h735ac91_2         313 KB  conda-forge
+    r-farver-2.1.2             |    r44ha730edb_2         1.3 MB  conda-forge
+    r-fastmap-1.2.0            |    r44ha730edb_2          72 KB  conda-forge
+    r-fontawesome-0.5.3        |    r44hc72bb7e_1         1.3 MB  conda-forge
+    r-forcats-1.0.0            |    r44hc72bb7e_3         414 KB  conda-forge
+    r-fs-1.6.6                 |    r44ha730edb_1         293 KB  conda-forge
+    r-gargle-1.6.0             |    r44h785f33e_0         564 KB  conda-forge
+    r-generics-0.1.4           |    r44hc72bb7e_1          87 KB  conda-forge
+    r-getopt-1.20.4            |    r44ha770c72_1          51 KB  conda-forge
+    r-ggplot2-4.0.0            |    r44h785f33e_0         5.4 MB  conda-forge
+    r-glue-1.8.0               |    r44h735ac91_1         160 KB  conda-forge
+    r-googledrive-2.1.2        |    r44hc72bb7e_0         1.2 MB  conda-forge
+    r-googlesheets4-1.1.2      |    r44h785f33e_0         512 KB  conda-forge
+    r-gtable-0.3.6             |    r44hc72bb7e_1         223 KB  conda-forge
+    r-haven-2.5.5              |    r44hbf875fd_1         351 KB  conda-forge
+    r-highr-0.11               |    r44hc72bb7e_2          56 KB  conda-forge
+    r-hms-1.1.3                |    r44hc72bb7e_3         107 KB  conda-forge
+    r-htmltools-0.5.8.1        |    r44ha730edb_2         357 KB  conda-forge
+    r-httr-1.4.7               |    r44hc72bb7e_1         463 KB  conda-forge
+    r-ids-1.0.1                |    r44hc72bb7e_4         127 KB  conda-forge
+    r-isoband-0.2.7            |    r44ha730edb_4         1.6 MB  conda-forge
+    r-jquerylib-0.1.4          |    r44hc72bb7e_4         300 KB  conda-forge
+    r-jsonlite-2.0.0           |    r44h735ac91_1         621 KB  conda-forge
+    r-knitr-1.50               |    r44hc72bb7e_1        1011 KB  conda-forge
+    r-labeling-0.4.3           |    r44hc72bb7e_2          68 KB  conda-forge
+    r-lifecycle-1.0.4          |    r44hc72bb7e_2         121 KB  conda-forge
+    r-lubridate-1.9.4          |    r44h735ac91_1         961 KB  conda-forge
+    r-magrittr-2.0.4           |    r44h735ac91_0         205 KB  conda-forge
+    r-memoise-2.0.1            |    r44hc72bb7e_4          56 KB  conda-forge
+    r-mime-0.13                |    r44h735ac91_1          63 KB  conda-forge
+    r-modelr-0.1.11            |    r44hc72bb7e_3         216 KB  conda-forge
+    r-munsell-0.5.1            |    r44hc72bb7e_2         241 KB  conda-forge
+    r-openssl-2.3.3            |    r44he2fe99f_0         674 KB  conda-forge
+    r-optparse-1.7.5           |    r44hc72bb7e_1          90 KB  conda-forge
+    r-pillar-1.11.0            |    r44hc72bb7e_1         615 KB  conda-forge
+    r-pkgconfig-2.0.3          |    r44hc72bb7e_5          27 KB  conda-forge
+    r-plyr-1.8.9               |    r44ha730edb_3         767 KB  conda-forge
+    r-prettyunits-1.2.0        |    r44hc72bb7e_2         157 KB  conda-forge
+    r-processx-3.8.6           |    r44h735ac91_1         321 KB  conda-forge
+    r-progress-1.2.3           |    r44hc72bb7e_2          94 KB  conda-forge
+    r-ps-1.9.1                 |    r44h735ac91_1         392 KB  conda-forge
+    r-purrr-1.1.0              |    r44h735ac91_1         538 KB  conda-forge
+    r-r6-2.6.1                 |    r44hc72bb7e_1          93 KB  conda-forge
+    r-ragg-1.5.0               |    r44ha9e83aa_1         517 KB  conda-forge
+    r-rappdirs-0.3.3           |    r44h735ac91_4          52 KB  conda-forge
+    r-rcolorbrewer-1.1_3       |    r44h785f33e_4          66 KB  conda-forge
+    r-rcpp-1.1.0               |    r44ha730edb_1         2.0 MB  conda-forge
+    r-readr-2.1.5              |    r44ha730edb_2         808 KB  conda-forge
+    r-readxl-1.4.5             |    r44h9d0ed1e_1         335 KB  conda-forge
+    r-rematch-2.0.0            |    r44hc72bb7e_2          25 KB  conda-forge
+    r-rematch2-2.1.2           |    r44hc72bb7e_5          55 KB  conda-forge
+    r-reprex-2.1.1             |    r44hc72bb7e_2         490 KB  conda-forge
+    r-reshape2-1.4.4           |    r44ha730edb_6         119 KB  conda-forge
+    r-rlang-1.1.6              |    r44ha730edb_1         1.5 MB  conda-forge
+    r-rmarkdown-2.29           |    r44hc72bb7e_1         2.0 MB  conda-forge
+    r-rstudioapi-0.17.1        |    r44hc72bb7e_1         311 KB  conda-forge
+    r-rvest-1.0.5              |    r44hc72bb7e_0         298 KB  conda-forge
+    r-s7-0.2.0                 |    r44h735ac91_1         301 KB  conda-forge
+    r-sass-0.4.10              |    r44ha730edb_1         2.0 MB  conda-forge
+    r-scales-1.4.0             |    r44hc72bb7e_1         763 KB  conda-forge
+    r-selectr-0.4_2            |    r44hc72bb7e_5         413 KB  conda-forge
+    r-stringi-1.8.7            |    r44h046adae_1         863 KB  conda-forge
+    r-stringr-1.5.2            |    r44h785f33e_1         294 KB  conda-forge
+    r-sys-3.4.3                |    r44h735ac91_1          48 KB  conda-forge
+    r-systemfonts-1.2.3        |    r44h0113602_1         302 KB  conda-forge
+    r-textshaping-1.0.3        |    r44h0113602_1         167 KB  conda-forge
+    r-tibble-3.3.0             |    r44h735ac91_1         603 KB  conda-forge
+    r-tidyr-1.3.1              |    r44ha730edb_2         1.1 MB  conda-forge
+    r-tidyselect-1.2.1         |    r44hc72bb7e_2         215 KB  conda-forge
+    r-tidyverse-2.0.0          |    r44h785f33e_2         416 KB  conda-forge
+    r-timechange-0.3.0         |    r44ha730edb_2         176 KB  conda-forge
+    r-tinytex-0.57             |    r44hc72bb7e_1         150 KB  conda-forge
+    r-tzdb-0.5.0               |    r44ha730edb_2         539 KB  conda-forge
+    r-utf8-1.2.6               |    r44h735ac91_1         140 KB  conda-forge
+    r-uuid-1.2_1               |    r44h735ac91_1          51 KB  conda-forge
+    r-vctrs-0.6.5              |    r44ha730edb_2         1.2 MB  conda-forge
+    r-viridislite-0.4.2        |    r44hc72bb7e_3         1.2 MB  conda-forge
+    r-vroom-1.6.5              |    r44ha730edb_2         784 KB  conda-forge
+    r-withr-3.0.2              |    r44hc72bb7e_1         230 KB  conda-forge
+    r-xfun-0.53                |    r44ha730edb_1         569 KB  conda-forge
+    r-xml2-1.4.0               |    r44h8704ce6_1         342 KB  conda-forge
+    r-yaml-2.3.10              |    r44h735ac91_1         107 KB  conda-forge
+    rpsbproc-0.5.0             |       h43736c0_1         4.7 MB  bioconda
+    samtools-1.22.1            |       ha21ef43_0         485 KB  bioconda
+    sigtool-0.1.3              |       h88f4db0_0         209 KB  conda-forge
+    spades-4.2.0               |       hf6bce26_1        46.4 MB  bioconda
+    sqlite-3.46.1              |       he26b093_0         891 KB  conda-forge
+    tapi-1300.6.5              |       h390ca13_0         216 KB  conda-forge
+    tk-8.6.13                  |       hf689a15_2         3.1 MB  conda-forge
+    tktable-2.10               |       h2c093e9_7          80 KB  conda-forge
+    trimal-1.5.0               |       h5fa12a8_2         222 KB  bioconda
+    trnascan-se-2.0.12         | pl5321h18d8cf3_2         3.2 MB  bioconda
+    vmatch-2.3.0               |       h2413b67_6         1.7 MB  bioconda
+    wget-1.21.4                |       hca547e6_0         759 KB  conda-forge
+    xz-5.8.1                   |       h357f2ed_2          23 KB  conda-forge
+    xz-gpl-tools-5.8.1         |       h357f2ed_2          33 KB  conda-forge
+    xz-tools-5.8.1             |       hd471939_2          84 KB  conda-forge
+    yaml-0.2.5                 |       h4132b18_3          78 KB  conda-forge
+    zlib-1.3.1                 |       hd23fc13_2          86 KB  conda-forge
+    zstd-1.5.7                 |       h8210216_2         474 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       659.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  _r-mutex           conda-forge/noarch::_r-mutex-1.0.1-anacondar_1 
+  adwaita-icon-theme conda-forge/noarch::adwaita-icon-theme-48.1-unix_1 
+  atk-1.0            conda-forge/osx-64::atk-1.0-2.38.0-h4bec284_2 
+  bioconductor-qval~ bioconda/noarch::bioconductor-qvalue-2.38.0-r44hdfd78af_0 
+  blast              bioconda/osx-64::blast-2.16.0-h461d46c_3 
+  bowtie2            bioconda/osx-64::bowtie2-2.5.4-he4764aa_6 
+  bwa                bioconda/osx-64::bwa-0.7.19-h7f84b70_1 
+  bwidget            conda-forge/osx-64::bwidget-1.10.1-h694c41f_1 
+  c-ares             conda-forge/osx-64::c-ares-1.34.5-hf13058a_0 
+  cairo              conda-forge/osx-64::cairo-1.18.4-h950ec3b_0 
+  cctools_osx-64     conda-forge/osx-64::cctools_osx-64-1024.3-haa85c18_1 
+  clang              conda-forge/osx-64::clang-19.1.7-default_h1323312_4 
+  clang-19           conda-forge/osx-64::clang-19-19.1.7-default_hc369343_4 
+  clang_impl_osx-64  conda-forge/osx-64::clang_impl_osx-64-19.1.7-hc73cdc9_25 
+  clang_osx-64       conda-forge/osx-64::clang_osx-64-19.1.7-h7e5c614_25 
+  clangxx            conda-forge/osx-64::clangxx-19.1.7-default_h1c12a56_4 
+  clangxx_impl_osx-~ conda-forge/osx-64::clangxx_impl_osx-64-19.1.7-hb295874_25 
+  clangxx_osx-64     conda-forge/osx-64::clangxx_osx-64-19.1.7-h7e5c614_25 
+  compiler-rt        conda-forge/osx-64::compiler-rt-19.1.7-he914875_1 
+  compiler-rt_osx-64 conda-forge/noarch::compiler-rt_osx-64-19.1.7-h138dee1_1 
+  curl               conda-forge/osx-64::curl-8.14.1-h5dec5d8_0 
+  diamond            bioconda/osx-64::diamond-2.1.12-h2ec61ea_0 
+  entrez-direct      bioconda/osx-64::entrez-direct-22.4-h193322a_0 
+  epoxy              conda-forge/osx-64::epoxy-1.5.10-h5eb16cf_1 
+  famsa              bioconda/osx-64::famsa-2.4.1-h527b516_0 
+  fasttree           bioconda/osx-64::fasttree-2.2.0-h5c2640d_0 
+  font-ttf-dejavu-s~ conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0 
+  font-ttf-inconsol~ conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0 
+  font-ttf-source-c~ conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0 
+  font-ttf-ubuntu    conda-forge/noarch::font-ttf-ubuntu-0.83-h77eed37_3 
+  fontconfig         conda-forge/osx-64::fontconfig-2.15.0-h37eeddb_1 
+  fonts-conda-ecosy~ conda-forge/noarch::fonts-conda-ecosystem-1-0 
+  fonts-conda-forge  conda-forge/noarch::fonts-conda-forge-1-0 
+  freetype           conda-forge/osx-64::freetype-2.14.0-h694c41f_1 
+  fribidi            conda-forge/osx-64::fribidi-1.0.16-h8616949_0 
+  gdk-pixbuf         conda-forge/osx-64::gdk-pixbuf-2.42.12-h5720e38_3 
+  gfortran_impl_osx~ conda-forge/osx-64::gfortran_impl_osx-64-13.4.0-h8d0df8b_1 
+  gfortran_osx-64    conda-forge/osx-64::gfortran_osx-64-13.4.0-h3223c34_0 
+  ghostscript        conda-forge/osx-64::ghostscript-10.04.0-hac325c4_0 
+  glib-tools         conda-forge/osx-64::glib-tools-2.84.3-h35d42e9_0 
+  gmp                conda-forge/osx-64::gmp-6.3.0-hf036a51_2 
+  graphite2          conda-forge/osx-64::graphite2-1.3.14-h21dd04a_2 
+  graphviz           conda-forge/osx-64::graphviz-13.1.2-h42bfd48_0 
+  gsl                conda-forge/osx-64::gsl-2.7-h93259b0_0 
+  gtk3               conda-forge/osx-64::gtk3-3.24.43-h70b172e_5 
+  gts                conda-forge/osx-64::gts-0.7.6-h53e17e3_4 
+  harfbuzz           conda-forge/osx-64::harfbuzz-11.4.5-h0ffbb26_0 
+  hicolor-icon-theme conda-forge/osx-64::hicolor-icon-theme-0.17-h694c41f_2 
+  hmmer              bioconda/osx-64::hmmer-3.4-hc70aa7a_4 
+  htslib             bioconda/osx-64::htslib-1.22.1-h9f635df_0 
+  icu                conda-forge/osx-64::icu-75.1-h120a0e1_0 
+  idba               bioconda/osx-64::idba-1.1.3-1 
+  infernal           bioconda/osx-64::infernal-1.1.5-pl5321h5c2640d_4 
+  iqtree             bioconda/osx-64::iqtree-3.0.1-h6ed3961_0 
+  isl                conda-forge/osx-64::isl-0.26-imath32_h2e86a7b_101 
+  krb5               conda-forge/osx-64::krb5-1.21.3-h37d8d59_0 
+  ld64_osx-64        conda-forge/osx-64::ld64_osx-64-955.13-hf1c22e8_1 
+  lerc               conda-forge/osx-64::lerc-4.0.0-hcca01a6_1 
+  libasprintf        conda-forge/osx-64::libasprintf-0.25.1-h3184127_1 
+  libblas            conda-forge/osx-64::libblas-3.9.0-35_he492b99_openblas 
+  libcblas           conda-forge/osx-64::libcblas-3.9.0-35_h9b27e0a_openblas 
+  libclang-cpp19.1   conda-forge/osx-64::libclang-cpp19.1-19.1.7-default_hc369343_4 
+  libcurl            conda-forge/osx-64::libcurl-8.14.1-h5dec5d8_0 
+  libcxx-devel       conda-forge/osx-64::libcxx-devel-19.1.7-h7c275be_1 
+  libdeflate         conda-forge/osx-64::libdeflate-1.24-hcc1b750_0 
+  libedit            conda-forge/osx-64::libedit-3.1.20250104-pl5321ha958ccf_0 
+  libev              conda-forge/osx-64::libev-4.33-h10d778d_2 
+  libexpat           conda-forge/osx-64::libexpat-2.7.1-h21dd04a_0 
+  libfreetype        conda-forge/osx-64::libfreetype-2.14.0-h694c41f_1 
+  libfreetype6       conda-forge/osx-64::libfreetype6-2.14.0-h6912278_1 
+  libgcc             conda-forge/osx-64::libgcc-4.8.5-1 
+  libgd              conda-forge/osx-64::libgd-2.3.3-h8555400_11 
+  libgettextpo       conda-forge/osx-64::libgettextpo-0.25.1-h3184127_1 
+  libgfortran        conda-forge/osx-64::libgfortran-5.0.0-14_2_0_h51e75f0_103 
+  libgfortran-devel~ conda-forge/noarch::libgfortran-devel_osx-64-13.4.0-hbfa0f67_1 
+  libgfortran5       conda-forge/osx-64::libgfortran5-14.2.0-h51e75f0_103 
+  libglib            conda-forge/osx-64::libglib-2.84.3-h5fed8df_0 
+  libiconv           conda-forge/osx-64::libiconv-1.18-h57a12c2_2 
+  libidn2            conda-forge/osx-64::libidn2-2.3.8-he8ff88c_0 
+  libintl            conda-forge/osx-64::libintl-0.25.1-h3184127_1 
+  libjpeg-turbo      conda-forge/osx-64::libjpeg-turbo-3.1.0-h6e16a3a_0 
+  liblapack          conda-forge/osx-64::liblapack-3.9.0-35_h859234e_openblas 
+  libllvm19          conda-forge/osx-64::libllvm19-19.1.7-hc29ff6c_1 
+  liblzma            conda-forge/osx-64::liblzma-5.8.1-hd471939_2 
+  liblzma-devel      conda-forge/osx-64::liblzma-devel-5.8.1-hd471939_2 
+  libnghttp2         conda-forge/osx-64::libnghttp2-1.67.0-h3338091_0 
+  libopenblas        conda-forge/osx-64::libopenblas-0.3.30-openmp_hbf64a52_0 
+  libpng             conda-forge/osx-64::libpng-1.6.50-h84aeda2_1 
+  librsvg            conda-forge/osx-64::librsvg-2.58.4-h21a6cfa_3 
+  libsqlite          conda-forge/osx-64::libsqlite-3.46.1-h4b8f8c9_0 
+  libssh2            conda-forge/osx-64::libssh2-1.11.1-hed3591d_0 
+  libtiff            conda-forge/osx-64::libtiff-4.7.0-h59ddb5d_6 
+  libunistring       conda-forge/osx-64::libunistring-0.9.10-h0d85af4_0 
+  libuv              conda-forge/osx-64::libuv-1.51.0-h58003a5_1 
+  libwebp-base       conda-forge/osx-64::libwebp-base-1.6.0-hb807250_0 
+  libxml2            conda-forge/osx-64::libxml2-2.13.8-he1bc88e_1 
+  libxslt            conda-forge/osx-64::libxslt-1.1.43-h59ddae0_0 
+  libzlib            conda-forge/osx-64::libzlib-1.3.1-hd23fc13_2 
+  llvm-openmp        conda-forge/osx-64::llvm-openmp-19.1.7-ha54dae1_1 
+  llvm-tools         conda-forge/osx-64::llvm-tools-19.1.7-h3fe3016_1 
+  llvm-tools-19      conda-forge/osx-64::llvm-tools-19-19.1.7-he90a8e3_1 
+  make               conda-forge/osx-64::make-4.4.1-h00291cd_2 
+  mcl                bioconda/osx-64::mcl-22.282-pl5321h18d8cf3_4 
+  megahit            bioconda/osx-64::megahit-1.2.9-h99a451f_8 
+  meme               bioconda/osx-64::meme-4.11.2-py310pl5321hb032f04_9 
+  mpc                conda-forge/osx-64::mpc-1.3.1-h9d8efa1_1 
+  mpfr               conda-forge/osx-64::mpfr-4.2.1-haed47dc_3 
+  mpi                conda-forge/osx-64::mpi-1.0-openmpi 
+  muscle             bioconda/osx-64::muscle-3.8.1551-h5fa12a8_9 
+  ncbi-vdb           bioconda/osx-64::ncbi-vdb-3.2.1-h5fa12a8_0 
+  nodejs             conda-forge/osx-64::nodejs-20.12.2-hb4580d4_1 
+  openmpi            conda-forge/osx-64::openmpi-4.1.6-h7406208_101 
+  pandoc             conda-forge/osx-64::pandoc-3.8-h694c41f_0 
+  pango              conda-forge/osx-64::pango-1.56.4-h6ef8af8_0 
+  pcre2              conda-forge/osx-64::pcre2-10.45-hf733adb_0 
+  perl               conda-forge/osx-64::perl-5.32.1-7_h10d778d_perl5 
+  perl-archive-tar   bioconda/noarch::perl-archive-tar-3.04-pl5321hdfd78af_0 
+  perl-b-cow         conda-forge/osx-64::perl-b-cow-0.007-pl5321h6e16a3a_1 
+  perl-base          conda-forge/noarch::perl-base-2.23-pl5321hd8ed1ab_0 
+  perl-business-isbn conda-forge/noarch::perl-business-isbn-3.007-pl5321hd8ed1ab_0 
+  perl-business-isb~ conda-forge/noarch::perl-business-isbn-data-20210112.006-pl5321hd8ed1ab_0 
+  perl-carp          conda-forge/noarch::perl-carp-1.50-pl5321hd8ed1ab_0 
+  perl-cgi           bioconda/osx-64::perl-cgi-4.70-pl5321h18d8cf3_0 
+  perl-clone         conda-forge/osx-64::perl-clone-0.46-pl5321h6e16a3a_1 
+  perl-common-sense  conda-forge/noarch::perl-common-sense-3.75-pl5321hd8ed1ab_0 
+  perl-compress-raw~ conda-forge/osx-64::perl-compress-raw-bzip2-2.213-pl5321hf24e901_0 
+  perl-compress-raw~ conda-forge/osx-64::perl-compress-raw-zlib-2.213-pl5321h28c400f_0 
+  perl-constant      conda-forge/noarch::perl-constant-1.33-pl5321hd8ed1ab_0 
+  perl-encode        conda-forge/osx-64::perl-encode-3.21-pl5321h6e16a3a_1 
+  perl-encode-locale bioconda/noarch::perl-encode-locale-1.05-pl5321hdfd78af_7 
+  perl-exporter      conda-forge/noarch::perl-exporter-5.74-pl5321hd8ed1ab_0 
+  perl-exporter-tiny conda-forge/noarch::perl-exporter-tiny-1.002002-pl5321hd8ed1ab_0 
+  perl-extutils-mak~ conda-forge/noarch::perl-extutils-makemaker-7.70-pl5321hd8ed1ab_0 
+  perl-file-path     conda-forge/noarch::perl-file-path-2.18-pl5321hd8ed1ab_0 
+  perl-file-spec     bioconda/noarch::perl-file-spec-3.48_01-pl5321hdfd78af_2 
+  perl-file-temp     conda-forge/noarch::perl-file-temp-0.2304-pl5321hd8ed1ab_0 
+  perl-html-parser   bioconda/osx-64::perl-html-parser-3.83-pl5321h5fa12a8_1 
+  perl-html-tagset   bioconda/noarch::perl-html-tagset-3.24-pl5321hdfd78af_0 
+  perl-html-template bioconda/noarch::perl-html-template-2.97-pl5321hdfd78af_2 
+  perl-http-date     bioconda/noarch::perl-http-date-6.06-pl5321hdfd78af_0 
+  perl-http-message  bioconda/noarch::perl-http-message-7.00-pl5321hdfd78af_0 
+  perl-io-compress   bioconda/osx-64::perl-io-compress-2.213-pl5321h5eaf441_0 
+  perl-io-html       bioconda/noarch::perl-io-html-1.004-pl5321hdfd78af_0 
+  perl-io-zlib       bioconda/noarch::perl-io-zlib-1.15-pl5321hdfd78af_1 
+  perl-json          bioconda/noarch::perl-json-4.10-pl5321hdfd78af_1 
+  perl-json-xs       bioconda/osx-64::perl-json-xs-4.04-pl5321h5fa12a8_0 
+  perl-list-moreuti~ bioconda/noarch::perl-list-moreutils-0.430-pl5321hdfd78af_0 
+  perl-list-moreuti~ bioconda/osx-64::perl-list-moreutils-xs-0.430-pl5321h18d8cf3_5 
+  perl-lwp-mediatyp~ bioconda/noarch::perl-lwp-mediatypes-6.04-pl5321hdfd78af_1 
+  perl-mime-base64   conda-forge/osx-64::perl-mime-base64-3.16-pl5321h6e16a3a_3 
+  perl-parent        conda-forge/noarch::perl-parent-0.243-pl5321hd8ed1ab_0 
+  perl-pathtools     conda-forge/osx-64::perl-pathtools-3.75-pl5321h6e16a3a_2 
+  perl-scalar-list-~ conda-forge/osx-64::perl-scalar-list-utils-1.70-pl5321h1c43f85_0 
+  perl-storable      conda-forge/osx-64::perl-storable-3.15-pl5321h6e16a3a_2 
+  perl-test-fatal    conda-forge/osx-64::perl-test-fatal-0.016-pl5321h694c41f_0 
+  perl-test-needs    conda-forge/noarch::perl-test-needs-0.002009-pl5321hd8ed1ab_0 
+  perl-test-nowarni~ conda-forge/osx-64::perl-test-nowarnings-1.06-pl5321h694c41f_0 
+  perl-test-warnings conda-forge/osx-64::perl-test-warnings-0.031-pl5321h694c41f_0 
+  perl-time-local    bioconda/noarch::perl-time-local-1.35-pl5321hdfd78af_0 
+  perl-timedate      bioconda/noarch::perl-timedate-2.33-pl5321hdfd78af_2 
+  perl-try-tiny      conda-forge/osx-64::perl-try-tiny-0.31-pl5321h694c41f_0 
+  perl-types-serial~ bioconda/noarch::perl-types-serialiser-1.01-pl5321hdfd78af_0 
+  perl-uri           conda-forge/osx-64::perl-uri-5.17-pl5321h694c41f_0 
+  perl-url-encode    bioconda/osx-64::perl-url-encode-0.03-pl5321h527b516_1 
+  perl-xml-namespac~ conda-forge/noarch::perl-xml-namespacesupport-1.12-pl5321hd8ed1ab_0 
+  perl-xml-parser    conda-forge/osx-64::perl-xml-parser-2.44_01-pl5321hb443cb6_1004 
+  perl-xml-sax       conda-forge/noarch::perl-xml-sax-1.02-pl5321hd8ed1ab_0 
+  perl-xml-sax-base  conda-forge/noarch::perl-xml-sax-base-1.09-pl5321hd8ed1ab_0 
+  perl-xml-sax-expat conda-forge/noarch::perl-xml-sax-expat-0.51-pl5321hd8ed1ab_0 
+  perl-xml-simple    bioconda/noarch::perl-xml-simple-2.25-pl5321hdfd78af_2 
+  perl-yaml          bioconda/noarch::perl-yaml-1.30-pl5321hdfd78af_0 
+  pixman             conda-forge/osx-64::pixman-0.46.4-ha059160_1 
+  prodigal           bioconda/osx-64::prodigal-2.6.3-h7f84b70_11 
+  python_abi         conda-forge/noarch::python_abi-3.10-8_cp310 
+  r-askpass          conda-forge/osx-64::r-askpass-1.2.1-r44h199b6f9_0 
+  r-assertthat       conda-forge/noarch::r-assertthat-0.2.1-r44hc72bb7e_6 
+  r-backports        conda-forge/osx-64::r-backports-1.5.0-r44h735ac91_2 
+  r-base             conda-forge/osx-64::r-base-4.4.3-h46d4a84_2 
+  r-base64enc        conda-forge/osx-64::r-base64enc-0.1_3-r44h735ac91_1008 
+  r-bit              conda-forge/osx-64::r-bit-4.6.0-r44h735ac91_1 
+  r-bit64            conda-forge/osx-64::r-bit64-4.6.0_1-r44h735ac91_1 
+  r-blob             conda-forge/noarch::r-blob-1.2.4-r44hc72bb7e_3 
+  r-broom            conda-forge/noarch::r-broom-1.0.9-r44hc72bb7e_1 
+  r-bslib            conda-forge/noarch::r-bslib-0.9.0-r44hc72bb7e_1 
+  r-cachem           conda-forge/osx-64::r-cachem-1.1.0-r44h735ac91_2 
+  r-callr            conda-forge/noarch::r-callr-3.7.6-r44hc72bb7e_2 
+  r-cellranger       conda-forge/noarch::r-cellranger-1.1.0-r44hc72bb7e_1008 
+  r-cli              conda-forge/osx-64::r-cli-3.6.5-r44ha730edb_1 
+  r-clipr            conda-forge/noarch::r-clipr-0.8.0-r44hc72bb7e_4 
+  r-colorspace       conda-forge/osx-64::r-colorspace-2.1_1-r44h735ac91_1 
+  r-conflicted       conda-forge/noarch::r-conflicted-1.2.0-r44h785f33e_3 
+  r-cpp11            conda-forge/noarch::r-cpp11-0.5.2-r44h785f33e_2 
+  r-crayon           conda-forge/noarch::r-crayon-1.5.3-r44hc72bb7e_2 
+  r-curl             conda-forge/osx-64::r-curl-7.0.0-r44h23bc03f_1 
+  r-data.table       conda-forge/osx-64::r-data.table-1.17.8-r44h4055d09_1 
+  r-dbi              conda-forge/noarch::r-dbi-1.2.3-r44hc72bb7e_2 
+  r-dbplyr           conda-forge/noarch::r-dbplyr-2.5.1-r44hc72bb7e_1 
+  r-digest           conda-forge/osx-64::r-digest-0.6.37-r44ha730edb_1 
+  r-dplyr            conda-forge/osx-64::r-dplyr-1.1.4-r44ha730edb_2 
+  r-dtplyr           conda-forge/noarch::r-dtplyr-1.3.2-r44hc72bb7e_1 
+  r-ellipsis         conda-forge/osx-64::r-ellipsis-0.3.2-r44h735ac91_4 
+  r-evaluate         conda-forge/noarch::r-evaluate-1.0.5-r44hc72bb7e_1 
+  r-fansi            conda-forge/osx-64::r-fansi-1.0.6-r44h735ac91_2 
+  r-farver           conda-forge/osx-64::r-farver-2.1.2-r44ha730edb_2 
+  r-fastmap          conda-forge/osx-64::r-fastmap-1.2.0-r44ha730edb_2 
+  r-fontawesome      conda-forge/noarch::r-fontawesome-0.5.3-r44hc72bb7e_1 
+  r-forcats          conda-forge/noarch::r-forcats-1.0.0-r44hc72bb7e_3 
+  r-fs               conda-forge/osx-64::r-fs-1.6.6-r44ha730edb_1 
+  r-gargle           conda-forge/noarch::r-gargle-1.6.0-r44h785f33e_0 
+  r-generics         conda-forge/noarch::r-generics-0.1.4-r44hc72bb7e_1 
+  r-getopt           conda-forge/noarch::r-getopt-1.20.4-r44ha770c72_1 
+  r-ggplot2          conda-forge/noarch::r-ggplot2-4.0.0-r44h785f33e_0 
+  r-glue             conda-forge/osx-64::r-glue-1.8.0-r44h735ac91_1 
+  r-googledrive      conda-forge/noarch::r-googledrive-2.1.2-r44hc72bb7e_0 
+  r-googlesheets4    conda-forge/noarch::r-googlesheets4-1.1.2-r44h785f33e_0 
+  r-gtable           conda-forge/noarch::r-gtable-0.3.6-r44hc72bb7e_1 
+  r-haven            conda-forge/osx-64::r-haven-2.5.5-r44hbf875fd_1 
+  r-highr            conda-forge/noarch::r-highr-0.11-r44hc72bb7e_2 
+  r-hms              conda-forge/noarch::r-hms-1.1.3-r44hc72bb7e_3 
+  r-htmltools        conda-forge/osx-64::r-htmltools-0.5.8.1-r44ha730edb_2 
+  r-httr             conda-forge/noarch::r-httr-1.4.7-r44hc72bb7e_1 
+  r-ids              conda-forge/noarch::r-ids-1.0.1-r44hc72bb7e_4 
+  r-isoband          conda-forge/osx-64::r-isoband-0.2.7-r44ha730edb_4 
+  r-jquerylib        conda-forge/noarch::r-jquerylib-0.1.4-r44hc72bb7e_4 
+  r-jsonlite         conda-forge/osx-64::r-jsonlite-2.0.0-r44h735ac91_1 
+  r-knitr            conda-forge/noarch::r-knitr-1.50-r44hc72bb7e_1 
+  r-labeling         conda-forge/noarch::r-labeling-0.4.3-r44hc72bb7e_2 
+  r-lifecycle        conda-forge/noarch::r-lifecycle-1.0.4-r44hc72bb7e_2 
+  r-lubridate        conda-forge/osx-64::r-lubridate-1.9.4-r44h735ac91_1 
+  r-magrittr         conda-forge/osx-64::r-magrittr-2.0.4-r44h735ac91_0 
+  r-memoise          conda-forge/noarch::r-memoise-2.0.1-r44hc72bb7e_4 
+  r-mime             conda-forge/osx-64::r-mime-0.13-r44h735ac91_1 
+  r-modelr           conda-forge/noarch::r-modelr-0.1.11-r44hc72bb7e_3 
+  r-munsell          conda-forge/noarch::r-munsell-0.5.1-r44hc72bb7e_2 
+  r-openssl          conda-forge/osx-64::r-openssl-2.3.3-r44he2fe99f_0 
+  r-optparse         conda-forge/noarch::r-optparse-1.7.5-r44hc72bb7e_1 
+  r-pillar           conda-forge/noarch::r-pillar-1.11.0-r44hc72bb7e_1 
+  r-pkgconfig        conda-forge/noarch::r-pkgconfig-2.0.3-r44hc72bb7e_5 
+  r-plyr             conda-forge/osx-64::r-plyr-1.8.9-r44ha730edb_3 
+  r-prettyunits      conda-forge/noarch::r-prettyunits-1.2.0-r44hc72bb7e_2 
+  r-processx         conda-forge/osx-64::r-processx-3.8.6-r44h735ac91_1 
+  r-progress         conda-forge/noarch::r-progress-1.2.3-r44hc72bb7e_2 
+  r-ps               conda-forge/osx-64::r-ps-1.9.1-r44h735ac91_1 
+  r-purrr            conda-forge/osx-64::r-purrr-1.1.0-r44h735ac91_1 
+  r-r6               conda-forge/noarch::r-r6-2.6.1-r44hc72bb7e_1 
+  r-ragg             conda-forge/osx-64::r-ragg-1.5.0-r44ha9e83aa_1 
+  r-rappdirs         conda-forge/osx-64::r-rappdirs-0.3.3-r44h735ac91_4 
+  r-rcolorbrewer     conda-forge/noarch::r-rcolorbrewer-1.1_3-r44h785f33e_4 
+  r-rcpp             conda-forge/osx-64::r-rcpp-1.1.0-r44ha730edb_1 
+  r-readr            conda-forge/osx-64::r-readr-2.1.5-r44ha730edb_2 
+  r-readxl           conda-forge/osx-64::r-readxl-1.4.5-r44h9d0ed1e_1 
+  r-rematch          conda-forge/noarch::r-rematch-2.0.0-r44hc72bb7e_2 
+  r-rematch2         conda-forge/noarch::r-rematch2-2.1.2-r44hc72bb7e_5 
+  r-reprex           conda-forge/noarch::r-reprex-2.1.1-r44hc72bb7e_2 
+  r-reshape2         conda-forge/osx-64::r-reshape2-1.4.4-r44ha730edb_6 
+  r-rlang            conda-forge/osx-64::r-rlang-1.1.6-r44ha730edb_1 
+  r-rmarkdown        conda-forge/noarch::r-rmarkdown-2.29-r44hc72bb7e_1 
+  r-rstudioapi       conda-forge/noarch::r-rstudioapi-0.17.1-r44hc72bb7e_1 
+  r-rvest            conda-forge/noarch::r-rvest-1.0.5-r44hc72bb7e_0 
+  r-s7               conda-forge/osx-64::r-s7-0.2.0-r44h735ac91_1 
+  r-sass             conda-forge/osx-64::r-sass-0.4.10-r44ha730edb_1 
+  r-scales           conda-forge/noarch::r-scales-1.4.0-r44hc72bb7e_1 
+  r-selectr          conda-forge/noarch::r-selectr-0.4_2-r44hc72bb7e_5 
+  r-stringi          conda-forge/osx-64::r-stringi-1.8.7-r44h046adae_1 
+  r-stringr          conda-forge/noarch::r-stringr-1.5.2-r44h785f33e_1 
+  r-sys              conda-forge/osx-64::r-sys-3.4.3-r44h735ac91_1 
+  r-systemfonts      conda-forge/osx-64::r-systemfonts-1.2.3-r44h0113602_1 
+  r-textshaping      conda-forge/osx-64::r-textshaping-1.0.3-r44h0113602_1 
+  r-tibble           conda-forge/osx-64::r-tibble-3.3.0-r44h735ac91_1 
+  r-tidyr            conda-forge/osx-64::r-tidyr-1.3.1-r44ha730edb_2 
+  r-tidyselect       conda-forge/noarch::r-tidyselect-1.2.1-r44hc72bb7e_2 
+  r-tidyverse        conda-forge/noarch::r-tidyverse-2.0.0-r44h785f33e_2 
+  r-timechange       conda-forge/osx-64::r-timechange-0.3.0-r44ha730edb_2 
+  r-tinytex          conda-forge/noarch::r-tinytex-0.57-r44hc72bb7e_1 
+  r-tzdb             conda-forge/osx-64::r-tzdb-0.5.0-r44ha730edb_2 
+  r-utf8             conda-forge/osx-64::r-utf8-1.2.6-r44h735ac91_1 
+  r-uuid             conda-forge/osx-64::r-uuid-1.2_1-r44h735ac91_1 
+  r-vctrs            conda-forge/osx-64::r-vctrs-0.6.5-r44ha730edb_2 
+  r-viridislite      conda-forge/noarch::r-viridislite-0.4.2-r44hc72bb7e_3 
+  r-vroom            conda-forge/osx-64::r-vroom-1.6.5-r44ha730edb_2 
+  r-withr            conda-forge/noarch::r-withr-3.0.2-r44hc72bb7e_1 
+  r-xfun             conda-forge/osx-64::r-xfun-0.53-r44ha730edb_1 
+  r-xml2             conda-forge/osx-64::r-xml2-1.4.0-r44h8704ce6_1 
+  r-yaml             conda-forge/osx-64::r-yaml-2.3.10-r44h735ac91_1 
+  rpsbproc           bioconda/osx-64::rpsbproc-0.5.0-h43736c0_1 
+  samtools           bioconda/osx-64::samtools-1.22.1-ha21ef43_0 
+  sigtool            conda-forge/osx-64::sigtool-0.1.3-h88f4db0_0 
+  spades             bioconda/osx-64::spades-4.2.0-hf6bce26_1 
+  tapi               conda-forge/osx-64::tapi-1300.6.5-h390ca13_0 
+  tktable            conda-forge/osx-64::tktable-2.10-h2c093e9_7 
+  trimal             bioconda/osx-64::trimal-1.5.0-h5fa12a8_2 
+  trnascan-se        bioconda/osx-64::trnascan-se-2.0.12-pl5321h18d8cf3_2 
+  vmatch             bioconda/osx-64::vmatch-2.3.0-h2413b67_6 
+  wget               conda-forge/osx-64::wget-1.21.4-hca547e6_0 
+  xz-gpl-tools       conda-forge/osx-64::xz-gpl-tools-5.8.1-h357f2ed_2 
+  xz-tools           conda-forge/osx-64::xz-tools-5.8.1-hd471939_2 
+  yaml               conda-forge/osx-64::yaml-0.2.5-h4132b18_3 
+  zstd               conda-forge/osx-64::zstd-1.5.7-h8210216_2 
+
+The following packages will be UPDATED:
+
+  ca-certificates    pkgs/main/osx-64::ca-certificates-202~ --> conda-forge/noarch::ca-certificates-2025.8.3-hbd8a1cb_0 
+  libffi                 pkgs/main::libffi-3.4.4-hecd8cb5_1 --> conda-forge::libffi-3.4.6-h281671d_1 
+  openssl              pkgs/main::openssl-3.0.17-hee2dfae_0 --> conda-forge::openssl-3.5.2-h6e31bce_0 
+  xz                         pkgs/main::xz-5.6.4-h46256e1_1 --> conda-forge::xz-5.8.1-h357f2ed_2 
+  zlib                    pkgs/main::zlib-1.2.13-h4b97444_1 --> conda-forge::zlib-1.3.1-hd23fc13_2 
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  python               pkgs/main::python-3.10.18-hc958d9f_0 --> conda-forge::python-3.10.15-hd8744da_2_cpython 
+  sqlite                pkgs/main::sqlite-3.50.2-hc8b0dd6_1 --> conda-forge::sqlite-3.46.1-he26b093_0 
+  tk                        pkgs/main::tk-8.6.15-h3a5a201_0 --> conda-forge::tk-8.6.13-hf689a15_2 
+
+
+
+Downloading and Extracting Packages:
+blast-2.16.0         | 159.5 MB  |                                       |   0% 
+ghostscript-10.04.0  | 57.5 MB   |                                       |   0% [A
+
+spades-4.2.0         | 46.4 MB   |                                       |   0% [A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   |                                       |   0% [A[A[A
+
+
+
+r-base-4.4.3         | 25.5 MB   |                                       |   0% [A[A[A[A
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   |                                       |   0% [A[A[A[A[A
+
+
+
+
+
+llvm-tools-19-19.1.7 | 16.8 MB   |                                       |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   |                                       |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandoc-3.8           | 14.3 MB   |                                       |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libclang-cpp19.1-19. | 14.2 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+entrez-direct-22.4   | 13.9 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+python-3.10.15       | 12.3 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+perl-5.32.1          | 11.8 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+nodejs-20.12.2       | 11.6 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+icu-75.1             | 11.2 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+infernal-1.1.5       | 10.1 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+compiler-rt_osx-64-1 | 9.9 MB    |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncbi-vdb-3.2.1       | 9.6 MB    |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+meme-4.11.2          | 7.8 MB    |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.9 MB    |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r-ggplot2-4.0.0      | 5.4 MB    |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r-bslib-0.9.0        | 4.8 MB    |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+r-base-4.4.3         | 25.5 MB   |                                       |   0% [A[A[A[A
+ghostscript-10.04.0  | 57.5 MB   |                                       |   0% [A
+
+spades-4.2.0         | 46.4 MB   |                                       |   0% [A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   |                                       |   0% [A[A[Ablast-2.16.0         | 159.5 MB  |                                       |   0% 
+
+spades-4.2.0         | 46.4 MB   | 2                                     |   1% [A[A
+
+
+
+r-base-4.4.3         | 25.5 MB   | #6                                    |   4% [A[A[A[A
+ghostscript-10.04.0  | 57.5 MB   | 4                                     |   1% [Ablast-2.16.0         | 159.5 MB  | 1                                     |   0% 
+
+
+libllvm19-19.1.7     | 27.5 MB   | 4                                     |   1% [A[A[A
+
+
+
+r-base-4.4.3         | 25.5 MB   | #####                                 |  14% [A[A[A[Ablast-2.16.0         | 159.5 MB  | 4                                     |   1% 
+
+
+libllvm19-19.1.7     | 27.5 MB   | #2                                    |   3% [A[A[A
+
+spades-4.2.0         | 46.4 MB   | 7                                     |   2% [A[A
+ghostscript-10.04.0  | 57.5 MB   | #8                                    |   5% [A
+
+
+
+r-base-4.4.3         | 25.5 MB   | #########9                            |  27% [A[A[A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | ##5                                   |   7% [A[A[Ablast-2.16.0         | 159.5 MB  | 5                                     |   2% 
+
+spades-4.2.0         | 46.4 MB   | #                                     |   3% [A[A
+ghostscript-10.04.0  | 57.5 MB   | ####4                                 |  12% [A
+
+
+
+r-base-4.4.3         | 25.5 MB   | ############9                         |  35% [A[A[A[Ablast-2.16.0         | 159.5 MB  | 8                                     |   2% 
+
+
+libllvm19-19.1.7     | 27.5 MB   | ###8                                  |  10% [A[A[A
+
+spades-4.2.0         | 46.4 MB   | #3                                    |   4% [A[A
+ghostscript-10.04.0  | 57.5 MB   | #####7                                |  16% [A
+
+
+
+r-base-4.4.3         | 25.5 MB   | ################8                     |  45% [A[A[A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | #####2                                |  14% [A[A[Ablast-2.16.0         | 159.5 MB  | #2                                    |   3% 
+ghostscript-10.04.0  | 57.5 MB   | #######2                              |  19% [A
+
+spades-4.2.0         | 46.4 MB   | #5                                    |   4% [A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | ######3                               |  17% [A[A[A
+
+
+
+r-base-4.4.3         | 25.5 MB   | ###################8                  |  54% [A[A[A[Ablast-2.16.0         | 159.5 MB  | #5                                    |   4% 
+ghostscript-10.04.0  | 57.5 MB   | ########8                             |  24% [A
+
+spades-4.2.0         | 46.4 MB   | #9                                    |   5% [A[A
+
+
+
+r-base-4.4.3         | 25.5 MB   | #######################1              |  63% [A[A[A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | #######8                              |  21% [A[A[Ablast-2.16.0         | 159.5 MB  | #8                                    |   5% 
+ghostscript-10.04.0  | 57.5 MB   | ##########3                           |  28% [A
+
+
+
+r-base-4.4.3         | 25.5 MB   | ##########################            |  71% [A[A[A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | #########                             |  24% [A[A[A
+
+spades-4.2.0         | 46.4 MB   | ##5                                   |   7% [A[Ablast-2.16.0         | 159.5 MB  | ##                                    |   6% 
+
+
+libllvm19-19.1.7     | 27.5 MB   | ##########6                           |  29% [A[A[A
+
+
+
+r-base-4.4.3         | 25.5 MB   | #############################4        |  80% [A[A[A[A
+ghostscript-10.04.0  | 57.5 MB   | ############4                         |  34% [Ablast-2.16.0         | 159.5 MB  | ##3                                   |   6% 
+
+
+libllvm19-19.1.7     | 27.5 MB   | ###########8                          |  32% [A[A[A
+ghostscript-10.04.0  | 57.5 MB   | #############9                        |  38% [A
+
+
+
+r-base-4.4.3         | 25.5 MB   | ################################1     |  87% [A[A[A[A
+
+
+
+r-base-4.4.3         | 25.5 MB   | ###################################6  |  96% [A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ##8                                   |   8% [A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | #############                         |  35% [A[A[A
+ghostscript-10.04.0  | 57.5 MB   | ###############5                      |  42% [Ablast-2.16.0         | 159.5 MB  | ##5                                   |   7% 
+
+
+
+r-base-4.4.3         | 25.5 MB   | ##################################### | 100% [A[A[A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | ##############7                       |  40% [A[A[A
+ghostscript-10.04.0  | 57.5 MB   | #################4                    |  47% [Ablast-2.16.0         | 159.5 MB  | ##7                                   |   7% 
+
+spades-4.2.0         | 46.4 MB   | ###                                   |   8% [A[A
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   |                                       |   0% [A[A[A[A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | ################9                     |  46% [A[A[A
+ghostscript-10.04.0  | 57.5 MB   | ###################4                  |  52% [Ablast-2.16.0         | 159.5 MB  | ##9                                   |   8% 
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   | ###                                   |   8% [A[A[A[A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | ##################5                   |  50% [A[A[A
+ghostscript-10.04.0  | 57.5 MB   | #####################                 |  57% [A
+
+spades-4.2.0         | 46.4 MB   | ###2                                  |   9% [A[Ablast-2.16.0         | 159.5 MB  | ###1                                  |   8% 
+
+spades-4.2.0         | 46.4 MB   | ###8                                  |  11% [A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | ####################                  |  54% [A[A[A
+ghostscript-10.04.0  | 57.5 MB   | ######################6               |  61% [A
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   | #######7                              |  21% [A[A[A[A[A
+
+
+
+r-base-4.4.3         | 25.5 MB   | ##################################### | 100% [A[A[A[A
+ghostscript-10.04.0  | 57.5 MB   | ########################2             |  65% [Ablast-2.16.0         | 159.5 MB  | ###2                                  |   9% 
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   | ##########9                           |  30% [A[A[A[A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | #####################4                |  58% [A[A[A
+
+spades-4.2.0         | 46.4 MB   | ####2                                 |  11% [A[Ablast-2.16.0         | 159.5 MB  | ###4                                  |   9% 
+ghostscript-10.04.0  | 57.5 MB   | #########################6            |  69% [A
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   | ################2                     |  44% [A[A[A[A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | #######################6              |  64% [A[A[A
+ghostscript-10.04.0  | 57.5 MB   | ###########################6          |  75% [Ablast-2.16.0         | 159.5 MB  | ###6                                  |  10% 
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   | ###################9                  |  54% [A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ####4                                 |  12% [A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | #########################7            |  70% [A[A[A
+ghostscript-10.04.0  | 57.5 MB   | #############################1        |  79% [A
+
+spades-4.2.0         | 46.4 MB   | ####8                                 |  13% [A[A
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   | #######################4              |  63% [A[A[A[A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | ###########################4          |  74% [A[A[Ablast-2.16.0         | 159.5 MB  | ###7                                  |  10% 
+ghostscript-10.04.0  | 57.5 MB   | ##############################7       |  83% [A
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   | ############################3         |  77% [A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | #####1                                |  14% [A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | #############################         |  79% [A[A[Ablast-2.16.0         | 159.5 MB  | ###9                                  |  11% 
+ghostscript-10.04.0  | 57.5 MB   | ################################2     |  87% [A
+
+
+libllvm19-19.1.7     | 27.5 MB   | ##############################9       |  84% [A[A[A
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   | ################################      |  87% [A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | #####3                                |  14% [A[Ablast-2.16.0         | 159.5 MB  | ####                                  |  11% 
+
+
+libllvm19-19.1.7     | 27.5 MB   | ################################7     |  88% [A[A[A
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   | ####################################1 |  98% [A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | #####6                                |  15% [A[A
+ghostscript-10.04.0  | 57.5 MB   | #################################6    |  91% [Ablast-2.16.0         | 159.5 MB  | ####2                                 |  12% 
+
+
+libllvm19-19.1.7     | 27.5 MB   | ##################################4   |  93% [A[A[A
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   | ##################################### | 100% [A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | #####8                                |  16% [A[A
+ghostscript-10.04.0  | 57.5 MB   | ##################################9   |  94% [A
+
+
+
+
+
+llvm-tools-19-19.1.7 | 16.8 MB   |                                       |   0% [A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ####4                                 |  12% 
+
+
+libllvm19-19.1.7     | 27.5 MB   | ####################################1 |  98% [A[A[A
+
+spades-4.2.0         | 46.4 MB   | ######                                |  16% [A[Ablast-2.16.0         | 159.5 MB  | ####6                                 |  12% 
+ghostscript-10.04.0  | 57.5 MB   | ####################################2 |  98% [A
+
+
+
+
+
+llvm-tools-19-19.1.7 | 16.8 MB   | ###7                                  |  10% [A[A[A[A[A[A
+
+
+
+
+gfortran_impl_osx-64 | 19.8 MB   | ##################################### | 100% [A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ######4                               |  18% [A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | ##################################### | 100% [A[A[Ablast-2.16.0         | 159.5 MB  | ####8                                 |  13% 
+
+
+
+
+
+llvm-tools-19-19.1.7 | 16.8 MB   | ##########1                           |  27% [A[A[A[A[A[A
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   |                                       |   0% [A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ######7                               |  18% [A[A
+
+
+
+
+
+llvm-tools-19-19.1.7 | 16.8 MB   | ################7                     |  45% [A[A[A[A[A[A
+ghostscript-10.04.0  | 57.5 MB   | ##################################### | 100% [Ablast-2.16.0         | 159.5 MB  | #####1                                |  14% 
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   | ###4                                  |   9% [A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | #######4                              |  20% [A[A
+
+
+
+
+
+llvm-tools-19-19.1.7 | 16.8 MB   | ######################9               |  62% [A[A[A[A[A[A
+
+
+
+
+
+
+
+pandoc-3.8           | 14.3 MB   |                                       |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   | #######6                              |  21% [A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | #####2                                |  14% 
+
+
+
+
+
+llvm-tools-19-19.1.7 | 16.8 MB   | ############################1         |  76% [A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ########1                             |  22% [A[Ablast-2.16.0         | 159.5 MB  | #####4                                |  15% 
+
+
+
+
+
+
+
+pandoc-3.8           | 14.3 MB   | ###8                                  |  10% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   | ##########5                           |  29% [A[A[A[A[A[A[A
+
+
+libllvm19-19.1.7     | 27.5 MB   | ##################################### | 100% [A[A[Ablast-2.16.0         | 159.5 MB  | #####6                                |  15% 
+
+
+
+
+
+
+
+pandoc-3.8           | 14.3 MB   | #######4                              |  20% [A[A[A[A[A[A[A[A
+
+
+
+
+
+llvm-tools-19-19.1.7 | 16.8 MB   | #################################2    |  90% [A[A[A[A[A[A
+ghostscript-10.04.0  | 57.5 MB   | ##################################### | 100% [A
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   | #############2                        |  36% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandoc-3.8           | 14.3 MB   | ###############4                      |  42% [A[A[A[A[A[A[A[A
+
+
+
+
+
+llvm-tools-19-19.1.7 | 16.8 MB   | ##################################### | 100% [A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ########5                             |  23% [A[Ablast-2.16.0         | 159.5 MB  | #####7                                |  16% 
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   | ##################8                   |  51% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandoc-3.8           | 14.3 MB   | ####################9                 |  57% [A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ########8                             |  24% [A[A
+
+
+
+
+
+
+
+
+libclang-cpp19.1-19. | 14.2 MB   |                                       |   0% [A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | #####9                                |  16% 
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   | #######################3              |  63% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandoc-3.8           | 14.3 MB   | ###############################6      |  86% [A[A[A[A[A[A[A[A
+
+
+
+
+
+llvm-tools-19-19.1.7 | 16.8 MB   | ##################################### | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libclang-cpp19.1-19. | 14.2 MB   | ######5                               |  18% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   | ###########################           |  73% [A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ######                                |  16% 
+
+
+
+
+
+
+
+
+libclang-cpp19.1-19. | 14.2 MB   | ##############6                       |  40% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   | ###############################       |  84% [A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ######1                               |  17% 
+
+spades-4.2.0         | 46.4 MB   | #########2                            |  25% [A[A
+
+
+
+
+
+
+
+pandoc-3.8           | 14.3 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libclang-cpp19.1-19. | 14.2 MB   | ######################                |  60% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   | ###################################3  |  96% [A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ######3                               |  17% 
+
+spades-4.2.0         | 46.4 MB   | #########6                            |  26% [A[A
+
+
+
+
+
+
+
+
+
+entrez-direct-22.4   | 13.9 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libclang-cpp19.1-19. | 14.2 MB   | ############################1         |  76% [A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ######4                               |  17% 
+
+
+
+
+
+
+
+
+
+entrez-direct-22.4   | 13.9 MB   | ##2                                   |   6% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pandoc-3.8           | 14.3 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   | ##################################### | 100% [A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | #########9                            |  27% [A[A
+
+
+
+
+
+
+
+
+
+entrez-direct-22.4   | 13.9 MB   | #############7                        |  37% [A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ######6                               |  18% 
+
+
+
+
+
+
+
+
+libclang-cpp19.1-19. | 14.2 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libclang-cpp19.1-19. | 14.2 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+python-3.10.15       | 12.3 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ##########2                           |  28% [A[Ablast-2.16.0         | 159.5 MB  | ######7                               |  18% 
+
+
+
+
+
+
+
+
+
+entrez-direct-22.4   | 13.9 MB   | ###################6                  |  53% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+perl-5.32.1          | 11.8 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+python-3.10.15       | 12.3 MB   | ##9                                   |   8% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+entrez-direct-22.4   | 13.9 MB   | ###########################5          |  75% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libclang-cpp19.1-19. | 14.2 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ##########5                           |  28% [A[A
+
+
+
+
+
+
+
+
+
+
+
+perl-5.32.1          | 11.8 MB   | ##5                                   |   7% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+python-3.10.15       | 12.3 MB   | #########6                            |  26% [A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ######8                               |  19% 
+
+
+
+
+
+
+
+
+
+entrez-direct-22.4   | 13.9 MB   | #################################9    |  92% [A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ##########7                           |  29% [A[A
+
+
+
+
+
+
+
+
+
+
+
+perl-5.32.1          | 11.8 MB   | ##########6                           |  29% [A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ######9                               |  19% 
+
+
+
+
+
+
+
+
+
+
+python-3.10.15       | 12.3 MB   | #############4                        |  36% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+entrez-direct-22.4   | 13.9 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+perl-5.32.1          | 11.8 MB   | #################8                    |  48% [A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | #######1                              |  19% 
+
+spades-4.2.0         | 46.4 MB   | ###########                           |  30% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+nodejs-20.12.2       | 11.6 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+python-3.10.15       | 12.3 MB   | ####################2                 |  55% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+perl-5.32.1          | 11.8 MB   | #######################8              |  65% [A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | #######3                              |  20% 
+
+
+
+
+
+
+
+
+
+
+
+
+nodejs-20.12.2       | 11.6 MB   | ###9                                  |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+python-3.10.15       | 12.3 MB   | ########################4             |  66% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+perl-5.32.1          | 11.8 MB   | ################################3     |  87% [A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | #######4                              |  20% 
+
+
+
+
+
+
+
+
+
+
+python-3.10.15       | 12.3 MB   | ############################8         |  78% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+nodejs-20.12.2       | 11.6 MB   | ##########5                           |  28% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ###########2                          |  30% [A[Ablast-2.16.0         | 159.5 MB  | #######6                              |  21% 
+
+
+
+
+
+
+
+
+
+
+
+
+nodejs-20.12.2       | 11.6 MB   | ######################4               |  61% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ###########6                          |  31% [A[A
+
+
+
+
+
+
+
+
+
+
+
+perl-5.32.1          | 11.8 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+python-3.10.15       | 12.3 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+python-3.10.15       | 12.3 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+infernal-1.1.5       | 10.1 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+nodejs-20.12.2       | 11.6 MB   | ####################################  |  97% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+icu-75.1             | 11.2 MB   |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ###########8                          |  32% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+nodejs-20.12.2       | 11.6 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+infernal-1.1.5       | 10.1 MB   | ######7                               |  18% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+icu-75.1             | 11.2 MB   | ########5                             |  23% [A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | #######8                              |  21% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+infernal-1.1.5       | 10.1 MB   | ##############1                       |  38% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ############7                         |  34% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+icu-75.1             | 11.2 MB   | ##################4                   |  50% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+infernal-1.1.5       | 10.1 MB   | #####################2                |  57% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+compiler-rt_osx-64-1 | 9.9 MB    |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ########2                             |  22% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+icu-75.1             | 11.2 MB   | ########################5             |  66% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ############9                         |  35% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+compiler-rt_osx-64-1 | 9.9 MB    | #######9                              |  21% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ########4                             |  23% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+infernal-1.1.5       | 10.1 MB   | ##########################7           |  72% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+icu-75.1             | 11.2 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+icu-75.1             | 11.2 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+compiler-rt_osx-64-1 | 9.9 MB    | #################2                    |  47% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+infernal-1.1.5       | 10.1 MB   | ###################################   |  95% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ########5                             |  23% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncbi-vdb-3.2.1       | 9.6 MB    |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | #############2                        |  36% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+compiler-rt_osx-64-1 | 9.9 MB    | #######################8              |  64% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+infernal-1.1.5       | 10.1 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | #########                             |  24% 
+
+spades-4.2.0         | 46.4 MB   | ##############3                       |  39% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncbi-vdb-3.2.1       | 9.6 MB    | #################3                    |  47% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+meme-4.11.2          | 7.8 MB    |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+compiler-rt_osx-64-1 | 9.9 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+compiler-rt_osx-64-1 | 9.9 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncbi-vdb-3.2.1       | 9.6 MB    | ##############################2       |  82% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ##############8                       |  40% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+meme-4.11.2          | 7.8 MB    | #######3                              |  20% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.9 MB    |                                       |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | #########2                            |  25% 
+
+spades-4.2.0         | 46.4 MB   | ###############2                      |  41% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+meme-4.11.2          | 7.8 MB    | ##################2                   |  49% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.9 MB    | ##########5                           |  29% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncbi-vdb-3.2.1       | 9.6 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+entrez-direct-22.4   | 13.9 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | #########5                            |  26% 
+
+
+
+
+
+
+
+
+
+
+
+perl-5.32.1          | 11.8 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+meme-4.11.2          | 7.8 MB    | ##########################7           |  72% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ###############6                      |  42% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.9 MB    | ###############################4      |  85% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r-ggplot2-4.0.0      | 5.4 MB    | 1                                     |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+meme-4.11.2          | 7.8 MB    | ###################################9  |  97% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r-ggplot2-4.0.0      | 5.4 MB    | ##############5                       |  39% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ################                      |  43% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.9 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+hmmer-3.4            | 16.1 MB   | ##################################### | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r-bslib-0.9.0        | 4.8 MB    | 1                                     |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+meme-4.11.2          | 7.8 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | #########7                            |  26% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r-ggplot2-4.0.0      | 5.4 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r-ggplot2-4.0.0      | 5.4 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ################5                     |  45% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | 1                                     |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r-bslib-0.9.0        | 4.8 MB    | ###################1                  |  52% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ##########1                           |  27% 
+
+spades-4.2.0         | 46.4 MB   | #################4                    |  47% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ################                      |  43% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r-bslib-0.9.0        | 4.8 MB    | ####################################9 | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ##########4                           |  28% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r-bslib-0.9.0        | 4.8 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ###############################       |  84% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | #################9                    |  48% [A[Ablast-2.16.0         | 159.5 MB  | ##########6                           |  29% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+icu-75.1             | 11.2 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ###################                   |  51% [A[Ablast-2.16.0         | 159.5 MB  | ##########9                           |  29% 
+
+spades-4.2.0         | 46.4 MB   | ###################9                  |  54% [A[Ablast-2.16.0         | 159.5 MB  | ###########2                          |  30% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | #####################                 |  57% [A[Ablast-2.16.0         | 159.5 MB  | ###########5                          |  31% blast-2.16.0         | 159.5 MB  | ###########8                          |  32% 
+
+spades-4.2.0         | 46.4 MB   | #####################8                |  59% [A[Ablast-2.16.0         | 159.5 MB  | ############1                         |  33% blast-2.16.0         | 159.5 MB  | ############7                         |  34% 
+
+
+
+
+
+
+
+
+
+
+python-3.10.15       | 12.3 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | ######################4               |  61% [A[Ablast-2.16.0         | 159.5 MB  | #############                         |  35% 
+
+
+
+
+
+
+
+
+
+
+
+
+nodejs-20.12.2       | 11.6 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+compiler-rt_osx-64-1 | 9.9 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | #############4                        |  36% blast-2.16.0         | 159.5 MB  | ##############                        |  38% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libopenblas-0.3.30   | 5.9 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | #######################               |  62% [A[Ablast-2.16.0         | 159.5 MB  | ##############4                       |  39% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+infernal-1.1.5       | 10.1 MB   | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ##############9                       |  40% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r-ggplot2-4.0.0      | 5.4 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ###############3                      |  42% 
+
+spades-4.2.0         | 46.4 MB   | #######################8              |  64% [A[Ablast-2.16.0         | 159.5 MB  | ###############8                      |  43% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r-bslib-0.9.0        | 4.8 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ################2                     |  44% blast-2.16.0         | 159.5 MB  | ################5                     |  45% blast-2.16.0         | 159.5 MB  | ################9                     |  46% blast-2.16.0         | 159.5 MB  | #################3                    |  47% 
+
+spades-4.2.0         | 46.4 MB   | #########################6            |  69% [A[Ablast-2.16.0         | 159.5 MB  | #################7                    |  48% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ncbi-vdb-3.2.1       | 9.6 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+spades-4.2.0         | 46.4 MB   | #########################9            |  70% [A[Ablast-2.16.0         | 159.5 MB  | ##################                    |  49% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+meme-4.11.2          | 7.8 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ##################4                   |  50% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ##################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ablast-2.16.0         | 159.5 MB  | ##################9                   |  51% 
+
+spades-4.2.0         | 46.4 MB   | ##########################8           |  73% [A[Ablast-2.16.0         | 159.5 MB  | ###################4                  |  52% 
+
+spades-4.2.0         | 46.4 MB   | ###########################9          |  76% [A[Ablast-2.16.0         | 159.5 MB  | ###################8                  |  54% blast-2.16.0         | 159.5 MB  | ####################2                 |  55% 
+
+spades-4.2.0         | 46.4 MB   | ############################5         |  77% [A[Ablast-2.16.0         | 159.5 MB  | ####################6                 |  56% 
+
+spades-4.2.0         | 46.4 MB   | ############################9         |  78% [A[Ablast-2.16.0         | 159.5 MB  | #####################2                |  57% 
+
+spades-4.2.0         | 46.4 MB   | #############################4        |  80% [A[Ablast-2.16.0         | 159.5 MB  | #####################6                |  58% blast-2.16.0         | 159.5 MB  | ######################                |  60% blast-2.16.0         | 159.5 MB  | ######################4               |  61% blast-2.16.0         | 159.5 MB  | ######################8               |  62% blast-2.16.0         | 159.5 MB  | #######################4              |  63% blast-2.16.0         | 159.5 MB  | #######################8              |  65% blast-2.16.0         | 159.5 MB  | ########################3             |  66% 
+
+spades-4.2.0         | 46.4 MB   | #############################8        |  81% [A[Ablast-2.16.0         | 159.5 MB  | ########################7             |  67% 
+
+spades-4.2.0         | 46.4 MB   | ##############################1       |  82% [A[Ablast-2.16.0         | 159.5 MB  | #########################             |  68% 
+
+spades-4.2.0         | 46.4 MB   | ##############################6       |  83% [A[A
+
+spades-4.2.0         | 46.4 MB   | ###############################1      |  84% [A[A
+
+spades-4.2.0         | 46.4 MB   | ###############################8      |  86% [A[Ablast-2.16.0         | 159.5 MB  | #########################3            |  69% 
+
+spades-4.2.0         | 46.4 MB   | ################################9     |  89% [A[Ablast-2.16.0         | 159.5 MB  | #########################6            |  69% 
+
+spades-4.2.0         | 46.4 MB   | #################################5    |  91% [A[Ablast-2.16.0         | 159.5 MB  | #########################9            |  70% 
+
+spades-4.2.0         | 46.4 MB   | ##################################9   |  95% [A[Ablast-2.16.0         | 159.5 MB  | ##########################3           |  71% 
+
+spades-4.2.0         | 46.4 MB   | ###################################7  |  97% [A[Ablast-2.16.0         | 159.5 MB  | ##########################8           |  73% 
+
+spades-4.2.0         | 46.4 MB   | ####################################6 |  99% [A[Ablast-2.16.0         | 159.5 MB  | ###########################4          |  74% blast-2.16.0         | 159.5 MB  | ############################          |  76% blast-2.16.0         | 159.5 MB  | ############################5         |  77% blast-2.16.0         | 159.5 MB  | #############################         |  78% 
+
+spades-4.2.0         | 46.4 MB   | ##################################### | 100% [A[Ablast-2.16.0         | 159.5 MB  | #############################8        |  81% blast-2.16.0         | 159.5 MB  | ##############################4       |  82% blast-2.16.0         | 159.5 MB  | ###############################       |  84% blast-2.16.0         | 159.5 MB  | ###############################6      |  85% blast-2.16.0         | 159.5 MB  | ################################1     |  87% blast-2.16.0         | 159.5 MB  | ################################6     |  88% blast-2.16.0         | 159.5 MB  | #################################3    |  90% blast-2.16.0         | 159.5 MB  | #################################8    |  92% blast-2.16.0         | 159.5 MB  | ##################################3   |  93% blast-2.16.0         | 159.5 MB  | ##################################8   |  94% blast-2.16.0         | 159.5 MB  | ###################################2  |  95% blast-2.16.0         | 159.5 MB  | ###################################6  |  96% blast-2.16.0         | 159.5 MB  | ####################################  |  97% blast-2.16.0         | 159.5 MB  | ####################################4 |  98% blast-2.16.0         | 159.5 MB  | ####################################7 |  99% blast-2.16.0         | 159.5 MB  | ##################################### | 100% 
+
+spades-4.2.0         | 46.4 MB   | ##################################### | 100% [A[Ablast-2.16.0         | 159.5 MB  | ##################################### | 100% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                                                
+                                                                                [A
+
+                                                                                [A[A
+
+
+                                                                                [A[A[A
+
+
+
+                                                                                [A[A[A[A
+
+
+
+
+                                                                                [A[A[A[A[A
+
+
+
+
+
+                                                                                [A[A[A[A[A[A
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+Preparing transaction: - \ | / - \ | done
+Verifying transaction: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Executing transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ vmatch selection functions are installed in /Users/Snacks/miniconda3_rosetta/envs/anvio-8.0/lib.
+You can use them without specifying their full path.
+Symbol map files are installed in /Users/Snacks/miniconda3_rosetta/envs/anvio-8.0/share/vmatch-2.3.0-6/TRANS/.
+Activation and deactivation scripts will set MKVTREESMAPDIR accordingly
+so you can use symbol map files without specifying their full path.
+Those scripts are in /Users/Snacks/miniconda3_rosetta/envs/anvio-8.0/etc/conda/activate.d/vmatch-2.3.0-6.sh and /Users/Snacks/miniconda3_rosetta/envs/anvio-8.0/etc/conda/deactivate.d/vmatch-2.3.0-6.sh respectively.
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / 
+- \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ |     
+#############################################################################################
+#                                                                                           #
+#   Note: SPAdes installed through bioconda on MacOS may be somewhat slower than the SPAdes #
+#   binaries distributed by the authors at                                                  #
+#                                                                                           #
+#   http://cab.spbu.ru/files/release4.2.0/SPAdes-4.2.0-Darwin.tar.gz
+#                                                                                           #
+#   due to unavailability of parallel libstdc++ for the Clang compiler used by bioconda on  #
+#   MacOS; see https://github.com/ablab/spades/issues/194#issuecomment-523175204            #
+#                                                                                           #
+#############################################################################################
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ 
+| / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - 
+\ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+[1m[7m%[27m[1m[0m                                                                                ]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004hsscript anvio_rosetta_setup_091225.loh g[?1l>[?2004l
+]2;script anvio_rosetta_setup_091225.log]1;scriptScript started, output file is anvio_rosetta_setup_091225.log
+[1m[7m%[27m[1m[0m                                                                                ]7;file:///Users/Snacks]2;Snacks@]1;~]7;file:///Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+Deleting expired sessions...none found.
+
+Script done, output file is anvio_rosetta_setup_091225.log
+[1m[7m%[27m[1m[0m                                                                                ]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+
+Script done on Fri Sep 12 16:01:19 2025
