@@ -1,7 +1,15 @@
 Script started on Fri Sep 12 16:01:47 2025
 Restored session: Fri Sep 12 16:01:19 CDT 2025
-[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004hcconda activate anvio-8.0[?1l>[?2004l
-]2;conda activate anvio-8.0]1;conda[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mconda install -y -c bioconda fastani[27m[36D[27mc[27mo[27mn[27md[27ma[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27my[27m [27m-[27mc[27m [27mb[27mi[27mo[27mc[27mo[27mn[27md[27ma[27m [27mf[27ma[27ms[27mt[27ma[27mn[27mi[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\
+[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004hcconda activate anvio-8.0[?1l>[?2004l
+
+]2;conda activate anvio-8.0]1;conda[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\
+[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mconda install -y -c bioconda fastani[27m[36D[27mc[27mo[27mn[27md[27ma[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27my[27m [27m-[27mc[27m [27mb[27mi[27mo[27mc[27mo[27mn[27md[27ma[27m [27mf[27ma[27ms[27mt[27ma[27mn[27mi[?1l>[?2004l
+
 ]2;conda install -y -c bioconda fastani]1;conda[1;32m2[0m[1;32m channel Terms of Service accepted[0m
 Channels:
  - bioconda
@@ -36,19 +44,48 @@ The following NEW packages will be INSTALLED:
 
 
 Downloading and Extracting Packages:
-
+
+
 Preparing transaction: / done
 Verifying transaction: \ done
 Executing transaction: / done
-[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mcurl -L https://github.com/merenlab/anvio/releases/download/v8/anvio-8.tar.gz \[27m
-[7m        --output anvio-8.tar.gz[27m[K[A[14D[27mc[27mu[27mr[27ml[27m [27m-[27mL[27m [27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mm[27me[27mr[27me[27mn[27ml[27ma[27mb[27m/[27ma[27mn[27mv[27mi[27mo[27m/[27mr[27me[27ml[27me[27ma[27ms[27me[27ms[27m/[27md[27mo[27mw[27mn[27ml[27mo[27ma[27md[27m/[27mv[27m8[27m/[27ma[27mn[27mv[27mi[27mo[27m-[27m8[27m.[27mt[27ma[27mr[27m.[27mg[27mz[27m [27m\[1B[27m [27m [27m [27m [27m [27m [27m [27m [27m-[27m-[27mo[27mu[27mt[27mp[27mu[27mt[27m [27ma[27mn[27mv[27mi[27mo[27m-[27m8[27m.[27mt[27ma[27mr[27m.[27mg[27mz[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\
+[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mcurl -L https://github.com/merenlab/anvio/releases/download/v8/anvio-8.tar.gz \[27m
+
+[7m        --output anvio-8.tar.gz[27m[K[A[14D[27mc[27mu[27mr[27ml[27m [27m-[27mL[27m [27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mm[27me[27mr[27me[27mn[27ml[27ma[27mb[27m/[27ma[27mn[27mv[27mi[27mo[27m/[27mr[27me[27ml[27me[27ma[27ms[27me[27ms[27m/[27md[27mo[27mw[27mn[27ml[27mo[27ma[27md[27m/[27mv[27m8[27m/[27ma[27mn[27mv[27mi[27mo[27m-[27m8[27m.[27mt[27ma[27mr[27m.[27mg[27mz[27m [27m\[1B
+[27m [27m [27m [27m [27m [27m [27m [27m [27m-[27m-[27mo[27mu[27mt[27mp[27mu[27mt[27m [27ma[27mn[27mv[27mi[27mo[27m-[27m8[27m.[27mt[27ma[27mr[27m.[27mg[27mz[?1l>[?2004l
+
 ]2;curl -L https://github.com/merenlab/anvio/releases/download/v8/anvio-8.tar.gz]1;curl  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  0  235M    0 1693k    0     0  4072k      0  0:00:59 --:--:--  0:00:59 4072k 19  235M   19 45.7M    0     0  32.1M      0  0:00:07  0:00:01  0:00:06 43.9M 34  235M   34 81.1M    0     0  33.5M      0  0:00:07  0:00:02  0:00:05 39.7M 47  235M   47  112M    0     0  32.9M      0  0:00:07  0:00:03  0:00:04 36.9M 61  235M   61  145M    0     0  32.8M      0  0:00:07  0:00:04  0:00:03 35.8M 75  235M   75  177M    0     0  32.7M      0  0:00:07  0:00:05  0:00:02 35.1M 88  235M   88  208M    0     0  32.4M      0  0:00:07  0:00:06  0:00:01 32.5M100  235M  100  235M    0     0  32.3M      0  0:00:07  0:00:07 --:--:-- 31.7M
-[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mexport CC=/usr/bin/clang[27m[24D[27me[27mx[27mp[27mo[27mr[27mt[27m [27mC[27mC[27m=[27m/[27mu[27ms[27mr[27m/[27mb[27mi[27mn[27m/[27mc[27ml[27ma[27mn[27mg[?1l>[?2004l
-]2;export CC=/usr/bin/clang ]1;export[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mexport CXX=/usr/bin/clang++[27m[27D[27me[27mx[27mp[27mo[27mr[27mt[27m [27mC[27mX[27mX[27m=[27m/[27mu[27ms[27mr[27m/[27mb[27mi[27mn[27m/[27mc[27ml[27ma[27mn[27mg[27m+[27m+[?1l>[?2004l
-]2;export CXX=/usr/bin/clang++ ]1;export[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mpip install anvio-8.tar.gz[27m[26D[27mp[27mi[27mp[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27ma[27mn[27mv[27mi[27mo[27m-[27m8[27m.[27mt[27ma[27mr[27m.[27mg[27mz[?1l>[?2004l
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+  0  235M    0 1693k    0     0  4072k      0  0:00:59 --:--:--  0:00:59 4072k
+ 19  235M   19 45.7M    0     0  32.1M      0  0:00:07  0:00:01  0:00:06 43.9M
+ 34  235M   34 81.1M    0     0  33.5M      0  0:00:07  0:00:02  0:00:05 39.7M
+ 47  235M   47  112M    0     0  32.9M      0  0:00:07  0:00:03  0:00:04 36.9M
+ 61  235M   61  145M    0     0  32.8M      0  0:00:07  0:00:04  0:00:03 35.8M
+ 75  235M   75  177M    0     0  32.7M      0  0:00:07  0:00:05  0:00:02 35.1M
+ 88  235M   88  208M    0     0  32.4M      0  0:00:07  0:00:06  0:00:01 32.5M
+100  235M  100  235M    0     0  32.3M      0  0:00:07  0:00:07 --:--:-- 31.7M
+[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\
+[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mexport CC=/usr/bin/clang[27m[24D[27me[27mx[27mp[27mo[27mr[27mt[27m [27mC[27mC[27m=[27m/[27mu[27ms[27mr[27m/[27mb[27mi[27mn[27m/[27mc[27ml[27ma[27mn[27mg[?1l>[?2004l
+
+]2;export CC=/usr/bin/clang ]1;export[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\
+[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mexport CXX=/usr/bin/clang++[27m[27D[27me[27mx[27mp[27mo[27mr[27mt[27m [27mC[27mX[27mX[27m=[27m/[27mu[27ms[27mr[27m/[27mb[27mi[27mn[27m/[27mc[27ml[27ma[27mn[27mg[27m+[27m+[?1l>[?2004l
+
+]2;export CXX=/usr/bin/clang++ ]1;export[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\
+[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mpip install anvio-8.tar.gz[27m[26D[27mp[27mi[27mp[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27ma[27mn[27mv[27mi[27mo[27m-[27m8[27m.[27mt[27ma[27mr[27m.[27mg[27mz[?1l>[?2004l
+
 ]2;pip3 install anvio-8.tar.gz]1;pip[33mWARNING: Disabling truststore since ssl support is missing[0m[33m
 [0m[33mWARNING: pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.[0m[33m
 [0mProcessing ./anvio-8.tar.gz
@@ -64,10 +101,22 @@ INFO: pip is looking at multiple versions of anvio to determine which version is
 [0m[33mWARNING: pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.[0m[33m
 [0mCould not fetch URL https://pypi.org/simple/pip/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/pip/ (Caused by SSLError("Can't connect to HTTPS URL because the SSL module is not available.")) - skipping
 [31mERROR: No matching distribution found for numpy<=1.24[0m[31m
-[0m[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;31m➜  [36m~[00m [K[?1h=[?2004h[7msource ~/miniconda3_rosetta/bin/activate[27m[40D[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27mb[27mi[27mn[27m/[27ma[27mc[27mt[27mi[27mv[27ma[27mt[27me[?1l>[?2004l
-]2;source ~/miniconda3_rosetta/bin/activate]1;source[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mpython -c "import ssl; print(ssl.OPENSSL_VERSION)"[27m[50D[27mp[27my[27mt[27mh[27mo[27mn[27m [27m-[27mc[27m [27m"[27mi[27mm[27mp[27mo[27mr[27mt[27m [27ms[27ms[27ml[27m;[27m [27mp[27mr[27mi[27mn[27mt[27m([27ms[27ms[27ml[27m.[27mO[27mP[27mE[27mN[27mS[27mS[27mL[27m_[27mV[27mE[27mR[27mS[27mI[27mO[27mN[27m)[27m"[?1l>[?2004l
+[0m[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://x86_64-apple-darwin13.4.0/Users/Snacks]2;Snacks@x86_64-apple-darwin13]1;~]7;file://x86_64-apple-darwin13.4.0/Users/Snacks\
+[0m[27m[24m[J(anvio-8.0) [01;31m➜  [36m~[00m [K[?1h=[?2004h[7msource ~/miniconda3_rosetta/bin/activate[27m[40D[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27mm[27mi[27mn[27mi[27mc[27mo[27mn[27md[27ma[27m3[27m_[27mr[27mo[27ms[27me[27mt[27mt[27ma[27m/[27mb[27mi[27mn[27m/[27ma[27mc[27mt[27mi[27mv[27ma[27mt[27me[?1l>[?2004l
+
+]2;source ~/miniconda3_rosetta/bin/activate]1;source[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\
+[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mpython -c "import ssl; print(ssl.OPENSSL_VERSION)"[27m[50D[27mp[27my[27mt[27mh[27mo[27mn[27m [27m-[27mc[27m [27m"[27mi[27mm[27mp[27mo[27mr[27mt[27m [27ms[27ms[27ml[27m;[27m [27mp[27mr[27mi[27mn[27mt[27m([27ms[27ms[27ml[27m.[27mO[27mP[27mE[27mN[27mS[27mS[27mL[27m_[27mV[27mE[27mR[27mS[27mI[27mO[27mN[27m)[27m"[?1l>[?2004l
+
 ]2;python3 -c "import ssl; print(ssl.OPENSSL_VERSION)"]1;pythonOpenSSL 3.0.17 1 Jul 2025
-[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mconda remove -n anvio-8.0 --all[27m[31D[27mc[27mo[27mn[27md[27ma[27m [27mr[27me[27mm[27mo[27mv[27me[27m [27m-[27mn[27m [27ma[27mn[27mv[27mi[27mo[27m-[27m8[27m.[27m0[27m [27m-[27m-[27ma[27ml[27ml[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\
+[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mconda remove -n anvio-8.0 --all[27m[31D[27mc[27mo[27mn[27md[27ma[27m [27mr[27me[27mm[27mo[27mv[27me[27m [27m-[27mn[27m [27ma[27mn[27mv[27mi[27mo[27m-[27m8[27m.[27m0[27m [27m-[27m-[27ma[27ml[27ml[?1l>[?2004l
+
 ]2;conda remove -n anvio-8.0 --all]1;conda[1;32m2[0m[1;32m channel Terms of Service accepted[0m
 
 Remove all packages in environment /Users/Snacks/miniconda3_rosetta/envs/anvio-8.0:
@@ -401,7 +450,8 @@ Proceed ([y]/n)? y
 
 
 Downloading and Extracting Packages:
-
+
+
 Preparing transaction: - done
 Verifying transaction: | done
 Executing transaction: - \ | / - \ | / - \ | / - \ | / 
@@ -409,7 +459,11 @@ Executing transaction: - \ | / - \ | / - \ | / - \ |
 Everything found within the environment (/Users/Snacks/miniconda3_rosetta/envs/anvio-8.0), including any conda environment configurations and any non-conda files, will be deleted. Do you wish to continue?
  (y/[n])? y
 
-[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mconda create -n anvio-8.0 python=3.10[27m[37D[27mc[27mo[27mn[27md[27ma[27m [27mc[27mr[27me[27ma[27mt[27me[27m [27m-[27mn[27m [27ma[27mn[27mv[27mi[27mo[27m-[27m8[27m.[27m0[27m [27mp[27my[27mt[27mh[27mo[27mn[27m=[27m3[27m.[27m1[27m0[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\
+[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mconda create -n anvio-8.0 python=3.10[27m[37D[27mc[27mo[27mn[27md[27ma[27m [27mc[27mr[27me[27ma[27mt[27me[27m [27m-[27mn[27m [27ma[27mn[27mv[27mi[27mo[27m-[27m8[27m.[27m0[27m [27mp[27my[27mt[27mh[27mo[27mn[27m=[27m3[27m.[27m1[27m0[?1l>[?2004l
+
 ]2;conda create -n anvio-8.0 python=3.10]1;conda[1;32m2[0m[1;32m channel Terms of Service accepted[0m
 Channels:
  - defaults
@@ -450,7 +504,8 @@ Proceed ([y]/n)? y
 
 
 Downloading and Extracting Packages:
-
+
+
 Preparing transaction: / - done
 Verifying transaction: | / - \ | / - \ | / - \ done
 Executing transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
@@ -463,10 +518,26 @@ Executing transaction: / - \ | / - \ | / - \ | / - \
 #
 #     $ conda deactivate
 
-[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004hcconda activate anvio-8.0[?1l>[?2004l
-]2;conda activate anvio-8.0]1;conda[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004heexp e  [7mexport CC=/usr/bin/clang[27m[24D[27me[27mx[27mp[27mo[27mr[27mt[27m [27mC[27mC[27m=[27m/[27mu[27ms[27mr[27m/[27mb[27mi[27mn[27m/[27mc[27ml[27ma[27mn[27mg[?1l>[?2004l
-]2;export CC=/usr/bin/clang ]1;export[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mexport CXX=/usr/bin/clang++[27m[27D[27me[27mx[27mp[27mo[27mr[27mt[27m [27mC[27mX[27mX[27m=[27m/[27mu[27ms[27mr[27m/[27mb[27mi[27mn[27m/[27mc[27ml[27ma[27mn[27mg[27m+[27m+[?1l>[?2004l
-]2;export CXX=/usr/bin/clang++ ]1;export[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mpip install --upgrade pip setuptools wheel[27m[42D[27mp[27mi[27mp[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27m-[27mu[27mp[27mg[27mr[27ma[27md[27me[27m [27mp[27mi[27mp[27m [27ms[27me[27mt[27mu[27mp[27mt[27mo[27mo[27ml[27ms[27m [27mw[27mh[27me[27me[27ml[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\
+[0m[27m[24m[J(base) [01;32m➜  [36m~[00m [K[?1h=[?2004hcconda activate anvio-8.0[?1l>[?2004l
+
+]2;conda activate anvio-8.0]1;conda[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\
+[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004heexp e  [7mexport CC=/usr/bin/clang[27m[24D[27me[27mx[27mp[27mo[27mr[27mt[27m [27mC[27mC[27m=[27m/[27mu[27ms[27mr[27m/[27mb[27mi[27mn[27m/[27mc[27ml[27ma[27mn[27mg[?1l>[?2004l
+
+]2;export CC=/usr/bin/clang ]1;export[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\
+[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mexport CXX=/usr/bin/clang++[27m[27D[27me[27mx[27mp[27mo[27mr[27mt[27m [27mC[27mX[27mX[27m=[27m/[27mu[27ms[27mr[27m/[27mb[27mi[27mn[27m/[27mc[27ml[27ma[27mn[27mg[27m+[27m+[?1l>[?2004l
+
+]2;export CXX=/usr/bin/clang++ ]1;export[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\
+[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mpip install --upgrade pip setuptools wheel[27m[42D[27mp[27mi[27mp[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27m-[27mu[27mp[27mg[27mr[27ma[27md[27me[27m [27mp[27mi[27mp[27m [27ms[27me[27mt[27mu[27mp[27mt[27mo[27mo[27ml[27ms[27m [27mw[27mh[27me[27me[27ml[?1l>[?2004l
+
 ]2;pip3 install --upgrade pip setuptools wheel]1;pipRequirement already satisfied: pip in ./miniconda3_rosetta/envs/anvio-8.0/lib/python3.10/site-packages (25.2)
 Requirement already satisfied: setuptools in ./miniconda3_rosetta/envs/anvio-8.0/lib/python3.10/site-packages (78.1.1)
 Collecting setuptools
@@ -479,9 +550,17 @@ Installing collected packages: setuptools
     Uninstalling setuptools-78.1.1:
       Successfully uninstalled setuptools-78.1.1
 Successfully installed setuptools-80.9.0
-[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mconda install -c conda-forge numpy<=1.24 cython h5py biopython[27m[62D[27mc[27mo[27mn[27md[27ma[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27mc[27m [27mc[27mo[27mn[27md[27ma[27m-[27mf[27mo[27mr[27mg[27me[27m [27mn[27mu[27mm[27mp[27my[27m<[27m=[27m1[27m.[27m2[27m4[27m [27mc[27my[27mt[27mh[27mo[27mn[27m [27mh[27m5[27mp[27my[27m [27mb[27mi[27mo[27mp[27my[27mt[27mh[27mo[27mn[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\
+[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004h[7mconda install -c conda-forge numpy<=1.24 cython h5py biopython[27m[62D[27mc[27mo[27mn[27md[27ma[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27mc[27m [27mc[27mo[27mn[27md[27ma[27m-[27mf[27mo[27mr[27mg[27me[27m [27mn[27mu[27mm[27mp[27my[27m<[27m=[27m1[27m.[27m2[27m4[27m [27mc[27my[27mt[27mh[27mo[27mn[27m [27mh[27m5[27mp[27my[27m [27mb[27mi[27mo[27mp[27my[27mt[27mh[27mo[27mn[?1l>[?2004l
+
 ]2;conda install -c conda-forge numpy cython h5py biopython < =1.24]1;condazsh: 1.24 not found
-[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;31m➜  [36m~[00m [K[?1h=[?2004hbbash[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\
+[0m[27m[24m[J(anvio-8.0) [01;31m➜  [36m~[00m [K[?1h=[?2004hbbash[?1l>[?2004l
+
 ]2;bash]1;bash
 The default interactive shell is now zsh.
 To update your account to use zsh, please run `chsh -s /bin/zsh`.
@@ -491,7 +570,8 @@ For more details, please visit https://support.apple.com/kb/HT208050.
 [?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                                                   New Buffer                                                      [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help          [7m^[27m[7mO[27m WriteOut          [7m^[27m[7mR[27m Read File         [7m^[27m[7mY[27m Prev Pg           [7m^[27m[7mK[27m Cut Text          [7m^[27m[7mC[27m Cur Pos           [K[24;1H[7m^[27m[7mX[27m Exit              [7m^[27m[7mJ[27m Justify           [7m^[27m[7mW[27m Where is          [7m^[27m[7mV[27m Next Pg           [7m^[27m[7mU[27m UnCut Text        [7m^[27m[7mT[27m To Spell          [K[3;1H[22;1H                                                                                                                                 [22;57H[7m[ Reading file ][27m[22;1H                                                                                                                                 [22;56H[7m[ Read 137 lines ][27m[1;1H[J[7m  UW PICO 5.09                                           File: /Users/Snacks/.zshrc                                              [27m[3;1H# If you come from bash you might have to change your $PATH.[4;1H# export PATH=$HOME/bin:/usr/local/bin:$PATH[6;1H# Path to your oh-my-zsh installation.[7;1Hexport ZSH="$HOME/.oh-my-zsh"[9;1H# Set name of the theme to load --- if set to "random", it will[10;1H# load a random theme each time oh-my-zsh is loaded, in which case,[11;1H# to know which specific one was loaded, run: echo $RANDOM_THEME[12;1H# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes[13;1HZSH_THEME="robbyrussell"[15;1H# Set list of themes to pick from when loading at random[16;1H# Setting this variable when ZSH_THEME=random will cause zsh to load[17;1H# a theme from this variable instead of looking in $ZSH/themes/[18;1H# If set to an empty array, this variable will have no effect.[19;1H# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )[21;1H# Uncomment the following line to use case-sensitive completion.[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help          [7m^[27m[7mO[27m WriteOut          [7m^[27m[7mR[27m Read File         [7m^[27m[7mY[27m Prev Pg           [7m^[27m[7mK[27m Cut Text          [7m^[27m[7mC[27m Cur Pos           [K[24;1H[7m^[27m[7mX[27m Exit              [7m^[27m[7mJ[27m Justify           [7m^[27m[7mW[27m Where is          [7m^[27m[7mV[27m Next Pg           [7m^[27m[7mU[27m UnCut Text        [7m^[27m[7mT[27m To Spell          [K[3;1H[23;1H[K[24;1H[K[?1049lbash-3.2$ nano ~/.bash_profile
 [?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                                                   New Buffer                                                      [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help          [7m^[27m[7mO[27m WriteOut          [7m^[27m[7mR[27m Read File         [7m^[27m[7mY[27m Prev Pg           [7m^[27m[7mK[27m Cut Text          [7m^[27m[7mC[27m Cur Pos           [K[24;1H[7m^[27m[7mX[27m Exit              [7m^[27m[7mJ[27m Justify           [7m^[27m[7mW[27m Where is          [7m^[27m[7mV[27m Next Pg           [7m^[27m[7mU[27m UnCut Text        [7m^[27m[7mT[27m To Spell          [K[3;1H[22;1H                                                                                                                                 [22;57H[7m[ Reading file ][27m[22;1H                                                                                                                                 [22;57H[7m[ Read 28 lines ][27m[1;1H[J[7m  UW PICO 5.09                                        File: /Users/Snacks/.bash_profile                                          [27m[4;1H# Setting PATH for Python 3.8[5;1H# The original version is saved in .bash_profile.pysave[6;1HPATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"[8;1Hsource "`brew --prefix`/etc/grc.bashrc"[9;1Hsource "`brew --prefix`/etc/grc.bashrc"[11;1H# Setting PATH for Python 3.12[12;1H# The original version is saved in .bash_profile.pysave[13;1HPATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"[14;1Hexport PATH[16;1H# >>> conda initialize >>>[17;1H# !! Contents within this block are managed by 'conda init' !![18;1H__conda_setup="$('/Users/Snacks/miniconda3_rosetta/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"[19;1Hif [ $? -eq 0 ]; then[20;5Heval "$__conda_setup"[21;1Helse[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help          [7m^[27m[7mO[27m WriteOut          [7m^[27m[7mR[27m Read File         [7m^[27m[7mY[27m Prev Pg           [7m^[27m[7mK[27m Cut Text          [7m^[27m[7mC[27m Cur Pos           [K[24;1H[7m^[27m[7mX[27m Exit              [7m^[27m[7mJ[27m Justify           [7m^[27m[7mW[27m Where is          [7m^[27m[7mV[27m Next Pg           [7m^[27m[7mU[27m UnCut Text        [7m^[27m[7mT[27m To Spell          [K[3;1H[23;1H[K[24;1H[K[?1049lbash-3.2$ echo $SHELL
 /bin/zsh
-bash-3.2$ conda install -c conda-forge numpy<=1.24 cython h5py biopython[C[C[C[C[C[C[C[C[C[C[Kconda env list
+bash-3.2$ conda install -c conda-forge numpy<=1.24 cython h5py biopython
+[C[C[C[C[C[C[C[C[C[C[Kconda env list
 
 # conda environments:
 #
@@ -561,7 +641,8 @@ Proceed ([y]/n)? y
 
 
 Downloading and Extracting Packages:
-
+
+
 Preparing transaction: - done
 Verifying transaction: | done
 Executing transaction: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
@@ -609,7 +690,8 @@ Proceed ([y]/n)? y
 
 
 Downloading and Extracting Packages:
-
+
+
 Preparing transaction: | / done
 Verifying transaction: \ | / - \ | / - done
 Executing transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
@@ -646,7 +728,8 @@ Executing transaction: | / - \ | / - \ | / - \ | / -
 base                 * /Users/Snacks/miniconda3_rosetta
 anvio-8.0              /Users/Snacks/miniconda3_rosetta/envs/anvio-8.0
 
-(base) bash-3.2$ conda install -c conda-forge 'numpy<=1.24' cython h5py biopython[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kconda activate anvio-8.0
+(base) bash-3.2$ conda install -c conda-forge 'numpy<=1.24' cython h5py biopython
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kconda activate anvio-8.0
 (anvio-8.0) bash-3.2$ which conda
 /Users/Snacks/miniconda3/condabin/conda
 (anvio-8.0) bash-3.2$ d[Kde[K[Kconda deactivate
@@ -660,7 +743,11 @@ anvio-8.0              /Users/Snacks/miniconda3_rosetta/envs/anvio-8.0
 /Users/Snacks/miniconda3/condabin/conda
 (anvio-8.0) bash-3.2$ exit
 exit
-[1m[7m%[27m[1m[0m                                                                                                                                 ]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004heexit[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                
+ 
+]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks]2;Snacks@wireless-10-154-76-174]1;~]7;file://wireless-10-154-76-174.public.utexas.edu/Users/Snacks\
+[0m[27m[24m[J(anvio-8.0) [01;32m➜  [36m~[00m [K[?1h=[?2004heexit[?1l>[?2004l
+
 ]2;exit]1;exit
 Saving session...completed.
 
